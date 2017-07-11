@@ -1,0 +1,81 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Fri Oct  7 14:33:29 2016
+[*]
+[dumpfile] "/home/jf/Documents/OAC_STUFF/tb_gen.ghw"
+[dumpfile_mtime] "Fri Oct  7 14:33:17 2016"
+[dumpfile_size] 13722
+[savefile] "/home/jf/Documents/OAC_STUFF/TB_BOOTH.gtkw"
+[timestart] 0
+[size] 1920 1014
+[pos] -1 -1
+*-27.070929 591000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb_gen.
+[treeopen] top.tb_gen.u_ca.
+[treeopen] top.tb_gen.u_ca.multiplexer_ca3.
+[treeopen] top.tb_gen.u_ca.somador_ca1.u_ca0.
+[sst_width] 224
+[signals_width] 202
+[sst_expanded] 1
+[sst_vpaned_height] 345
+@22
+#{top.tb_gen.x[15:0]} top.tb_gen.x[15] top.tb_gen.x[14] top.tb_gen.x[13] top.tb_gen.x[12] top.tb_gen.x[11] top.tb_gen.x[10] top.tb_gen.x[9] top.tb_gen.x[8] top.tb_gen.x[7] top.tb_gen.x[6] top.tb_gen.x[5] top.tb_gen.x[4] top.tb_gen.x[3] top.tb_gen.x[2] top.tb_gen.x[1] top.tb_gen.x[0]
+#{top.tb_gen.y[15:0]} top.tb_gen.y[15] top.tb_gen.y[14] top.tb_gen.y[13] top.tb_gen.y[12] top.tb_gen.y[11] top.tb_gen.y[10] top.tb_gen.y[9] top.tb_gen.y[8] top.tb_gen.y[7] top.tb_gen.y[6] top.tb_gen.y[5] top.tb_gen.y[4] top.tb_gen.y[3] top.tb_gen.y[2] top.tb_gen.y[1] top.tb_gen.y[0]
+#{top.tb_gen.result[31:0]} top.tb_gen.result[31] top.tb_gen.result[30] top.tb_gen.result[29] top.tb_gen.result[28] top.tb_gen.result[27] top.tb_gen.result[26] top.tb_gen.result[25] top.tb_gen.result[24] top.tb_gen.result[23] top.tb_gen.result[22] top.tb_gen.result[21] top.tb_gen.result[20] top.tb_gen.result[19] top.tb_gen.result[18] top.tb_gen.result[17] top.tb_gen.result[16] top.tb_gen.result[15] top.tb_gen.result[14] top.tb_gen.result[13] top.tb_gen.result[12] top.tb_gen.result[11] top.tb_gen.result[10] top.tb_gen.result[9] top.tb_gen.result[8] top.tb_gen.result[7] top.tb_gen.result[6] top.tb_gen.result[5] top.tb_gen.result[4] top.tb_gen.result[3] top.tb_gen.result[2] top.tb_gen.result[1] top.tb_gen.result[0]
+@200
+-
+@22
+#{top.tb_gen.u_ca.a[15:0]} top.tb_gen.u_ca.a[15] top.tb_gen.u_ca.a[14] top.tb_gen.u_ca.a[13] top.tb_gen.u_ca.a[12] top.tb_gen.u_ca.a[11] top.tb_gen.u_ca.a[10] top.tb_gen.u_ca.a[9] top.tb_gen.u_ca.a[8] top.tb_gen.u_ca.a[7] top.tb_gen.u_ca.a[6] top.tb_gen.u_ca.a[5] top.tb_gen.u_ca.a[4] top.tb_gen.u_ca.a[3] top.tb_gen.u_ca.a[2] top.tb_gen.u_ca.a[1] top.tb_gen.u_ca.a[0]
+#{top.tb_gen.u_ca.q[15:0]} top.tb_gen.u_ca.q[15] top.tb_gen.u_ca.q[14] top.tb_gen.u_ca.q[13] top.tb_gen.u_ca.q[12] top.tb_gen.u_ca.q[11] top.tb_gen.u_ca.q[10] top.tb_gen.u_ca.q[9] top.tb_gen.u_ca.q[8] top.tb_gen.u_ca.q[7] top.tb_gen.u_ca.q[6] top.tb_gen.u_ca.q[5] top.tb_gen.u_ca.q[4] top.tb_gen.u_ca.q[3] top.tb_gen.u_ca.q[2] top.tb_gen.u_ca.q[1] top.tb_gen.u_ca.q[0]
+#{top.tb_gen.u_ca.m[15:0]} top.tb_gen.u_ca.m[15] top.tb_gen.u_ca.m[14] top.tb_gen.u_ca.m[13] top.tb_gen.u_ca.m[12] top.tb_gen.u_ca.m[11] top.tb_gen.u_ca.m[10] top.tb_gen.u_ca.m[9] top.tb_gen.u_ca.m[8] top.tb_gen.u_ca.m[7] top.tb_gen.u_ca.m[6] top.tb_gen.u_ca.m[5] top.tb_gen.u_ca.m[4] top.tb_gen.u_ca.m[3] top.tb_gen.u_ca.m[2] top.tb_gen.u_ca.m[1] top.tb_gen.u_ca.m[0]
+@28
+top.tb_gen.u_ca.qm1
+@200
+-Somador
+@22
+#{top.tb_gen.u_ca.somador_ca1.x[15:0]} top.tb_gen.u_ca.somador_ca1.x[15] top.tb_gen.u_ca.somador_ca1.x[14] top.tb_gen.u_ca.somador_ca1.x[13] top.tb_gen.u_ca.somador_ca1.x[12] top.tb_gen.u_ca.somador_ca1.x[11] top.tb_gen.u_ca.somador_ca1.x[10] top.tb_gen.u_ca.somador_ca1.x[9] top.tb_gen.u_ca.somador_ca1.x[8] top.tb_gen.u_ca.somador_ca1.x[7] top.tb_gen.u_ca.somador_ca1.x[6] top.tb_gen.u_ca.somador_ca1.x[5] top.tb_gen.u_ca.somador_ca1.x[4] top.tb_gen.u_ca.somador_ca1.x[3] top.tb_gen.u_ca.somador_ca1.x[2] top.tb_gen.u_ca.somador_ca1.x[1] top.tb_gen.u_ca.somador_ca1.x[0]
+#{top.tb_gen.u_ca.somador_ca1.y[15:0]} top.tb_gen.u_ca.somador_ca1.y[15] top.tb_gen.u_ca.somador_ca1.y[14] top.tb_gen.u_ca.somador_ca1.y[13] top.tb_gen.u_ca.somador_ca1.y[12] top.tb_gen.u_ca.somador_ca1.y[11] top.tb_gen.u_ca.somador_ca1.y[10] top.tb_gen.u_ca.somador_ca1.y[9] top.tb_gen.u_ca.somador_ca1.y[8] top.tb_gen.u_ca.somador_ca1.y[7] top.tb_gen.u_ca.somador_ca1.y[6] top.tb_gen.u_ca.somador_ca1.y[5] top.tb_gen.u_ca.somador_ca1.y[4] top.tb_gen.u_ca.somador_ca1.y[3] top.tb_gen.u_ca.somador_ca1.y[2] top.tb_gen.u_ca.somador_ca1.y[1] top.tb_gen.u_ca.somador_ca1.y[0]
+@28
+top.tb_gen.u_ca.somador_ca1.t
+@22
+#{top.tb_gen.u_ca.somador_ca1.s[15:0]} top.tb_gen.u_ca.somador_ca1.s[15] top.tb_gen.u_ca.somador_ca1.s[14] top.tb_gen.u_ca.somador_ca1.s[13] top.tb_gen.u_ca.somador_ca1.s[12] top.tb_gen.u_ca.somador_ca1.s[11] top.tb_gen.u_ca.somador_ca1.s[10] top.tb_gen.u_ca.somador_ca1.s[9] top.tb_gen.u_ca.somador_ca1.s[8] top.tb_gen.u_ca.somador_ca1.s[7] top.tb_gen.u_ca.somador_ca1.s[6] top.tb_gen.u_ca.somador_ca1.s[5] top.tb_gen.u_ca.somador_ca1.s[4] top.tb_gen.u_ca.somador_ca1.s[3] top.tb_gen.u_ca.somador_ca1.s[2] top.tb_gen.u_ca.somador_ca1.s[1] top.tb_gen.u_ca.somador_ca1.s[0]
+@200
+-Mux Sum/Normal
+@22
+#{top.tb_gen.u_ca.multiplexer_ca3.x[15:0]} top.tb_gen.u_ca.multiplexer_ca3.x[15] top.tb_gen.u_ca.multiplexer_ca3.x[14] top.tb_gen.u_ca.multiplexer_ca3.x[13] top.tb_gen.u_ca.multiplexer_ca3.x[12] top.tb_gen.u_ca.multiplexer_ca3.x[11] top.tb_gen.u_ca.multiplexer_ca3.x[10] top.tb_gen.u_ca.multiplexer_ca3.x[9] top.tb_gen.u_ca.multiplexer_ca3.x[8] top.tb_gen.u_ca.multiplexer_ca3.x[7] top.tb_gen.u_ca.multiplexer_ca3.x[6] top.tb_gen.u_ca.multiplexer_ca3.x[5] top.tb_gen.u_ca.multiplexer_ca3.x[4] top.tb_gen.u_ca.multiplexer_ca3.x[3] top.tb_gen.u_ca.multiplexer_ca3.x[2] top.tb_gen.u_ca.multiplexer_ca3.x[1] top.tb_gen.u_ca.multiplexer_ca3.x[0]
+#{top.tb_gen.u_ca.multiplexer_ca3.y[15:0]} top.tb_gen.u_ca.multiplexer_ca3.y[15] top.tb_gen.u_ca.multiplexer_ca3.y[14] top.tb_gen.u_ca.multiplexer_ca3.y[13] top.tb_gen.u_ca.multiplexer_ca3.y[12] top.tb_gen.u_ca.multiplexer_ca3.y[11] top.tb_gen.u_ca.multiplexer_ca3.y[10] top.tb_gen.u_ca.multiplexer_ca3.y[9] top.tb_gen.u_ca.multiplexer_ca3.y[8] top.tb_gen.u_ca.multiplexer_ca3.y[7] top.tb_gen.u_ca.multiplexer_ca3.y[6] top.tb_gen.u_ca.multiplexer_ca3.y[5] top.tb_gen.u_ca.multiplexer_ca3.y[4] top.tb_gen.u_ca.multiplexer_ca3.y[3] top.tb_gen.u_ca.multiplexer_ca3.y[2] top.tb_gen.u_ca.multiplexer_ca3.y[1] top.tb_gen.u_ca.multiplexer_ca3.y[0]
+#{top.tb_gen.u_ca.multiplexer_ca3.sout[15:0]} top.tb_gen.u_ca.multiplexer_ca3.sout[15] top.tb_gen.u_ca.multiplexer_ca3.sout[14] top.tb_gen.u_ca.multiplexer_ca3.sout[13] top.tb_gen.u_ca.multiplexer_ca3.sout[12] top.tb_gen.u_ca.multiplexer_ca3.sout[11] top.tb_gen.u_ca.multiplexer_ca3.sout[10] top.tb_gen.u_ca.multiplexer_ca3.sout[9] top.tb_gen.u_ca.multiplexer_ca3.sout[8] top.tb_gen.u_ca.multiplexer_ca3.sout[7] top.tb_gen.u_ca.multiplexer_ca3.sout[6] top.tb_gen.u_ca.multiplexer_ca3.sout[5] top.tb_gen.u_ca.multiplexer_ca3.sout[4] top.tb_gen.u_ca.multiplexer_ca3.sout[3] top.tb_gen.u_ca.multiplexer_ca3.sout[2] top.tb_gen.u_ca.multiplexer_ca3.sout[1] top.tb_gen.u_ca.multiplexer_ca3.sout[0]
+@200
+-Shifter
+@22
+#{top.tb_gen.u_ca.shifter_ca2.a[15:0]} top.tb_gen.u_ca.shifter_ca2.a[15] top.tb_gen.u_ca.shifter_ca2.a[14] top.tb_gen.u_ca.shifter_ca2.a[13] top.tb_gen.u_ca.shifter_ca2.a[12] top.tb_gen.u_ca.shifter_ca2.a[11] top.tb_gen.u_ca.shifter_ca2.a[10] top.tb_gen.u_ca.shifter_ca2.a[9] top.tb_gen.u_ca.shifter_ca2.a[8] top.tb_gen.u_ca.shifter_ca2.a[7] top.tb_gen.u_ca.shifter_ca2.a[6] top.tb_gen.u_ca.shifter_ca2.a[5] top.tb_gen.u_ca.shifter_ca2.a[4] top.tb_gen.u_ca.shifter_ca2.a[3] top.tb_gen.u_ca.shifter_ca2.a[2] top.tb_gen.u_ca.shifter_ca2.a[1] top.tb_gen.u_ca.shifter_ca2.a[0]
+#{top.tb_gen.u_ca.shifter_ca2.sa[15:0]} top.tb_gen.u_ca.shifter_ca2.sa[15] top.tb_gen.u_ca.shifter_ca2.sa[14] top.tb_gen.u_ca.shifter_ca2.sa[13] top.tb_gen.u_ca.shifter_ca2.sa[12] top.tb_gen.u_ca.shifter_ca2.sa[11] top.tb_gen.u_ca.shifter_ca2.sa[10] top.tb_gen.u_ca.shifter_ca2.sa[9] top.tb_gen.u_ca.shifter_ca2.sa[8] top.tb_gen.u_ca.shifter_ca2.sa[7] top.tb_gen.u_ca.shifter_ca2.sa[6] top.tb_gen.u_ca.shifter_ca2.sa[5] top.tb_gen.u_ca.shifter_ca2.sa[4] top.tb_gen.u_ca.shifter_ca2.sa[3] top.tb_gen.u_ca.shifter_ca2.sa[2] top.tb_gen.u_ca.shifter_ca2.sa[1] top.tb_gen.u_ca.shifter_ca2.sa[0]
+#{top.tb_gen.u_ca.shifter_ca2.q[15:0]} top.tb_gen.u_ca.shifter_ca2.q[15] top.tb_gen.u_ca.shifter_ca2.q[14] top.tb_gen.u_ca.shifter_ca2.q[13] top.tb_gen.u_ca.shifter_ca2.q[12] top.tb_gen.u_ca.shifter_ca2.q[11] top.tb_gen.u_ca.shifter_ca2.q[10] top.tb_gen.u_ca.shifter_ca2.q[9] top.tb_gen.u_ca.shifter_ca2.q[8] top.tb_gen.u_ca.shifter_ca2.q[7] top.tb_gen.u_ca.shifter_ca2.q[6] top.tb_gen.u_ca.shifter_ca2.q[5] top.tb_gen.u_ca.shifter_ca2.q[4] top.tb_gen.u_ca.shifter_ca2.q[3] top.tb_gen.u_ca.shifter_ca2.q[2] top.tb_gen.u_ca.shifter_ca2.q[1] top.tb_gen.u_ca.shifter_ca2.q[0]
+#{top.tb_gen.u_ca.shifter_ca2.sq[15:0]} top.tb_gen.u_ca.shifter_ca2.sq[15] top.tb_gen.u_ca.shifter_ca2.sq[14] top.tb_gen.u_ca.shifter_ca2.sq[13] top.tb_gen.u_ca.shifter_ca2.sq[12] top.tb_gen.u_ca.shifter_ca2.sq[11] top.tb_gen.u_ca.shifter_ca2.sq[10] top.tb_gen.u_ca.shifter_ca2.sq[9] top.tb_gen.u_ca.shifter_ca2.sq[8] top.tb_gen.u_ca.shifter_ca2.sq[7] top.tb_gen.u_ca.shifter_ca2.sq[6] top.tb_gen.u_ca.shifter_ca2.sq[5] top.tb_gen.u_ca.shifter_ca2.sq[4] top.tb_gen.u_ca.shifter_ca2.sq[3] top.tb_gen.u_ca.shifter_ca2.sq[2] top.tb_gen.u_ca.shifter_ca2.sq[1] top.tb_gen.u_ca.shifter_ca2.sq[0]
+@28
+top.tb_gen.u_ca.shifter_ca2.qm1
+@200
+-Reg A
+@22
+#{top.tb_gen.u_ca.rega_ca0.y[15:0]} top.tb_gen.u_ca.rega_ca0.y[15] top.tb_gen.u_ca.rega_ca0.y[14] top.tb_gen.u_ca.rega_ca0.y[13] top.tb_gen.u_ca.rega_ca0.y[12] top.tb_gen.u_ca.rega_ca0.y[11] top.tb_gen.u_ca.rega_ca0.y[10] top.tb_gen.u_ca.rega_ca0.y[9] top.tb_gen.u_ca.rega_ca0.y[8] top.tb_gen.u_ca.rega_ca0.y[7] top.tb_gen.u_ca.rega_ca0.y[6] top.tb_gen.u_ca.rega_ca0.y[5] top.tb_gen.u_ca.rega_ca0.y[4] top.tb_gen.u_ca.rega_ca0.y[3] top.tb_gen.u_ca.rega_ca0.y[2] top.tb_gen.u_ca.rega_ca0.y[1] top.tb_gen.u_ca.rega_ca0.y[0]
+#{top.tb_gen.u_ca.rega_ca0.s[15:0]} top.tb_gen.u_ca.rega_ca0.s[15] top.tb_gen.u_ca.rega_ca0.s[14] top.tb_gen.u_ca.rega_ca0.s[13] top.tb_gen.u_ca.rega_ca0.s[12] top.tb_gen.u_ca.rega_ca0.s[11] top.tb_gen.u_ca.rega_ca0.s[10] top.tb_gen.u_ca.rega_ca0.s[9] top.tb_gen.u_ca.rega_ca0.s[8] top.tb_gen.u_ca.rega_ca0.s[7] top.tb_gen.u_ca.rega_ca0.s[6] top.tb_gen.u_ca.rega_ca0.s[5] top.tb_gen.u_ca.rega_ca0.s[4] top.tb_gen.u_ca.rega_ca0.s[3] top.tb_gen.u_ca.rega_ca0.s[2] top.tb_gen.u_ca.rega_ca0.s[1] top.tb_gen.u_ca.rega_ca0.s[0]
+@200
+-Reg Q
+@22
+#{top.tb_gen.u_ca.regq_ca1.y[15:0]} top.tb_gen.u_ca.regq_ca1.y[15] top.tb_gen.u_ca.regq_ca1.y[14] top.tb_gen.u_ca.regq_ca1.y[13] top.tb_gen.u_ca.regq_ca1.y[12] top.tb_gen.u_ca.regq_ca1.y[11] top.tb_gen.u_ca.regq_ca1.y[10] top.tb_gen.u_ca.regq_ca1.y[9] top.tb_gen.u_ca.regq_ca1.y[8] top.tb_gen.u_ca.regq_ca1.y[7] top.tb_gen.u_ca.regq_ca1.y[6] top.tb_gen.u_ca.regq_ca1.y[5] top.tb_gen.u_ca.regq_ca1.y[4] top.tb_gen.u_ca.regq_ca1.y[3] top.tb_gen.u_ca.regq_ca1.y[2] top.tb_gen.u_ca.regq_ca1.y[1] top.tb_gen.u_ca.regq_ca1.y[0]
+#{top.tb_gen.u_ca.regq_ca1.s[15:0]} top.tb_gen.u_ca.regq_ca1.s[15] top.tb_gen.u_ca.regq_ca1.s[14] top.tb_gen.u_ca.regq_ca1.s[13] top.tb_gen.u_ca.regq_ca1.s[12] top.tb_gen.u_ca.regq_ca1.s[11] top.tb_gen.u_ca.regq_ca1.s[10] top.tb_gen.u_ca.regq_ca1.s[9] top.tb_gen.u_ca.regq_ca1.s[8] top.tb_gen.u_ca.regq_ca1.s[7] top.tb_gen.u_ca.regq_ca1.s[6] top.tb_gen.u_ca.regq_ca1.s[5] top.tb_gen.u_ca.regq_ca1.s[4] top.tb_gen.u_ca.regq_ca1.s[3] top.tb_gen.u_ca.regq_ca1.s[2] top.tb_gen.u_ca.regq_ca1.s[1] top.tb_gen.u_ca.regq_ca1.s[0]
+@200
+-Reg Qm1
+@28
+top.tb_gen.u_ca.regqm1_ca2.y
+top.tb_gen.u_ca.regqm1_ca2.s
+@200
+-Controle
+@28
+top.tb_gen.u_ca.clk
+top.tb_gen.u_ca.init
+@200
+-
+[pattern_trace] 1
+[pattern_trace] 0
