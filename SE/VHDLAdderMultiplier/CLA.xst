@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/xst"
+elaborate
+-ifn CLA.prj
+-ifmt mixed

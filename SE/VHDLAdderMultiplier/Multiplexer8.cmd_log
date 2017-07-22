@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Multiplexer8.xst" -ofn "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Multiplexer8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd1800a-fg676-4 Multiplexer8.ngc Multiplexer8.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o Multiplexer8_map.ncd Multiplexer8.ngd Multiplexer8.pcf 
+par -w -intstyle ise -ol high -t 1 Multiplexer8_map.ncd Multiplexer8.ncd Multiplexer8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Multiplexer8.twx Multiplexer8.ncd -o Multiplexer8.twr Multiplexer8.pcf 

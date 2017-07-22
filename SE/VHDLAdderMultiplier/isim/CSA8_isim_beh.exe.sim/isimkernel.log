@@ -1,0 +1,10 @@
+Command line:
+   CSA8_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63189
+
+Sat Jul 22 15:36:36 2017
+
+
+ Elaboration Time: 0.031201 sec
