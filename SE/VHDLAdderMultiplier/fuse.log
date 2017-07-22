@@ -1,4 +1,4 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CSA8_isim_beh.exe -prj C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CSA8_beh.prj work.CSA8 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CSA16_isim_beh.exe -prj C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CSA16_beh.prj work.CSA16 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
@@ -8,7 +8,9 @@ Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMulti
 Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/full1.vhd" into library work
 Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Multiplexer4.vhd" into library work
 Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CLA.vhd" into library work
+Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Multiplexer8.vhd" into library work
 Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CSA8.vhd" into library work
+Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CSA16.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
@@ -18,10 +20,12 @@ Compiling architecture behavioral of entity Adder [adder_default]
 Compiling architecture behavioral of entity CLA [\CLA(4000)\]
 Compiling architecture behavioral of entity Multiplexer [\Multiplexer(4000)\]
 Compiling architecture behavioral of entity Multiplexer4 [\Multiplexer4(4000)\]
-Compiling architecture behavioral of entity csa8
+Compiling architecture behavioral of entity CSA8 [\CSA8(4000)\]
+Compiling architecture behavioral of entity Multiplexer8 [\Multiplexer8(4000)\]
+Compiling architecture behavioral of entity csa16
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 13 VHDL Units
-Built simulation executable C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CSA8_isim_beh.exe
-Fuse Memory Usage: 30092 KB
-Fuse CPU Usage: 576 ms
+Compiled 17 VHDL Units
+Built simulation executable C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CSA16_isim_beh.exe
+Fuse Memory Usage: 30120 KB
+Fuse CPU Usage: 670 ms
