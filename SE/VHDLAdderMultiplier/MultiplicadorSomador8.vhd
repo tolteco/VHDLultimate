@@ -11,6 +11,14 @@ entity MultiplicadorSomador8 is
 end MultiplicadorSomador8;
 
 architecture Behavioral of MultiplicadorSomador8 is
+	component Max is
+		generic(DELAY : time := 4.0 ns);
+		port(
+			X, Y : in  std_logic_vector(15 downto 0);
+			S    : out std_logic_vector(15 downto 0)
+		);
+	end component;
+	
 	component MinAbs8 is
 		generic(DELAY : time := 4.0 ns);
 		port(

@@ -1,0 +1,29 @@
+Command line:
+   MinAbs8_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49957
+
+Sun Jul 23 16:19:58 2017
+
+
+ Elaboration Time: 0.0624 sec
+
+ Current Memory Usage: 667.488 Meg
+
+ Total Signals          : 826
+ Total Nets             : 393
+ Total Signal Drivers   : 299
+ Total Blocks           : 153
+ Total Primitive Blocks : 96
+ Total Processes        : 227
+ Total Traceable Variables  : 54
+ Total Scalar Nets and Variables : 813
+Total Line Count : 299
+
+ Total Simulation Time: 0.2028 sec
+
+ Current Memory Usage: 982.061 Meg
+
+Sun Jul 23 16:21:12 2017
+

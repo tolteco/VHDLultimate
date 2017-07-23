@@ -13,14 +13,10 @@ Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 # isim force add /multiplicadorsomador8/x 10 -radix bin
 # isim force add /multiplicadorsomador8/y 10 -radix bin
-# isim force add /multiplicadorsomador8/clock 0 -radix bin -value 1 -radix bin -time 50 ns -repeat 100 ns
+# isim force add /multiplicadorsomador8/clock 0 -radix bin -value 1 -radix bin -time 6 ns -repeat 12 ns
 # run 1.00us
-# isim force add /multiplicadorsomador8/clock 1 -radix bin -value 0 -radix bin -time 50 ns -repeat 100 ns
+# isim force add /multiplicadorsomador8/clock 0 -radix bin -value 1 -radix bin -time 12 ns -repeat 24 ns
+# isim force add /multiplicadorsomador8/clock 0 -radix bin -value 1 -radix bin -time 12 ns -repeat 24 ns
 # run 1.00us
-# restart
-# isim force add /multiplicadorsomador8/x 10 -radix bin
-# isim force add /multiplicadorsomador8/y 10 -radix bin
-# isim force add /multiplicadorsomador8/clock 1 -radix bin -value 0 -radix bin -time 50 ns -repeat 100 ns
+# isim force add /multiplicadorsomador8/clock 0 -radix bin -value 1 -radix bin -time 250 ns -repeat 500 ns
 # run 1.00us
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
