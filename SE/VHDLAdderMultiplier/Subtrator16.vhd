@@ -26,7 +26,7 @@ begin
 	NY <= not(Y);
 	
 	u_ca0 : CSA16
-		port map (X, Y, '1', C, S);
+		port map (X, NY, '1', C, S);
 	
 	-- Soma de X com not(Y) e CarryIn em '1' é o mesmo
 	-- que "X-Y"

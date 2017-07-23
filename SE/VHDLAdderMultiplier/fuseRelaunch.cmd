@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CSA16_isim_beh.exe" -prj "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CSA16_beh.prj" "work.CSA16" 
+-intstyle "ise" -incremental -o "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Subtrator16_isim_beh.exe" -prj "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Subtrator16_beh.prj" "work.Subtrator16" 

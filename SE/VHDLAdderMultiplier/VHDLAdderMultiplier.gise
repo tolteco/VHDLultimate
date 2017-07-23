@@ -27,10 +27,12 @@
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CLA.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="CLA.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CLA_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CSA16_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CSA16_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="CSA16_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CSA8_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Max_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Max_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Multiplexer16_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplexer16_stx_beh.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Multiplexer8.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Multiplexer8.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Multiplexer8.lso"/>
@@ -65,6 +67,9 @@
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Multiplexer8_usage.xml"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplexer8_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Multiplexer8_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Subtrator16_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Subtrator16_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Subtrator16_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
@@ -90,69 +95,62 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1500749038" xil_pn:in_ck="-1224960844886199687" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1500749037">
+    <transform xil_pn:end_ts="1500819135" xil_pn:in_ck="3675978455042246590" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1500819135">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="CLA.vhd"/>
       <outfile xil_pn:name="CSA16.vhd"/>
       <outfile xil_pn:name="CSA8.vhd"/>
+      <outfile xil_pn:name="Max.vhd"/>
       <outfile xil_pn:name="Multiplexer.vhd"/>
+      <outfile xil_pn:name="Multiplexer16.vhd"/>
       <outfile xil_pn:name="Multiplexer4.vhd"/>
       <outfile xil_pn:name="Multiplexer8.vhd"/>
+      <outfile xil_pn:name="Subtrator16.vhd"/>
       <outfile xil_pn:name="full1.vhd"/>
       <outfile xil_pn:name="half.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1500749038" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2890248134719643423" xil_pn:start_ts="1500749038">
+    <transform xil_pn:end_ts="1500818887" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4335862020554684720" xil_pn:start_ts="1500818887">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1500749038" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="9149138364438030934" xil_pn:start_ts="1500749038">
+    <transform xil_pn:end_ts="1500818887" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3037886763838126843" xil_pn:start_ts="1500818887">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1500749038" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-996008991152213714" xil_pn:start_ts="1500749038">
+    <transform xil_pn:end_ts="1500818441" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-994514357919187402" xil_pn:start_ts="1500818441">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1500749038" xil_pn:in_ck="-1224960844886199687" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1500749038">
+    <transform xil_pn:end_ts="1500819135" xil_pn:in_ck="3675978455042246590" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1500819135">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="CLA.vhd"/>
       <outfile xil_pn:name="CSA16.vhd"/>
       <outfile xil_pn:name="CSA8.vhd"/>
+      <outfile xil_pn:name="Max.vhd"/>
       <outfile xil_pn:name="Multiplexer.vhd"/>
+      <outfile xil_pn:name="Multiplexer16.vhd"/>
       <outfile xil_pn:name="Multiplexer4.vhd"/>
       <outfile xil_pn:name="Multiplexer8.vhd"/>
+      <outfile xil_pn:name="Subtrator16.vhd"/>
       <outfile xil_pn:name="full1.vhd"/>
       <outfile xil_pn:name="half.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1500749042" xil_pn:in_ck="-1224960844886199687" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2730110406110640314" xil_pn:start_ts="1500749038">
+    <transform xil_pn:end_ts="1500819140" xil_pn:in_ck="3675978455042246590" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4429192915465220104" xil_pn:start_ts="1500819135">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="CSA16_beh.prj"/>
-      <outfile xil_pn:name="CSA16_isim_beh.exe"/>
+      <outfile xil_pn:name="Subtrator16_beh.prj"/>
+      <outfile xil_pn:name="Subtrator16_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1500749042" xil_pn:in_ck="7147093841910777066" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3058659322396103513" xil_pn:start_ts="1500749042">
+    <transform xil_pn:end_ts="1500819140" xil_pn:in_ck="3292658517734674028" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7229914368642791365" xil_pn:start_ts="1500819140">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="CSA16_isim_beh.wdb"/>
+      <outfile xil_pn:name="Subtrator16_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
