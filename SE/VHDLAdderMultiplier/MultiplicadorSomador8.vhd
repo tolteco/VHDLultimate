@@ -5,7 +5,7 @@ entity MultiplicadorSomador8 is
 	generic(DELAY : time := 4.0 ns);
 	port(
 		X, Y : in  std_logic_vector(7 downto 0); -- X * Y
-		Sel  : in  std_logic;           -- Selector
+		Clock: in  std_logic;           -- Clock
 		Sout : out std_logic_vector(15 downto 0) -- Saida
 	);
 end MultiplicadorSomador8;
@@ -21,6 +21,11 @@ architecture Behavioral of MultiplicadorSomador8 is
 	
 	
 begin
+
+	process (Clock) is
+	begin
+	
+	end process;
 
 
 end Behavioral;

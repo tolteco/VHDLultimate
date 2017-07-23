@@ -73,6 +73,7 @@
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Multiplexer8_usage.xml"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplexer8_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Multiplexer8_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MultiplicadorSomador8_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Neg_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Neg_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Subtrator16_isim_beh.exe"/>
@@ -101,7 +102,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1500824895" xil_pn:in_ck="2063562405651741468" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1500824895">
+    <transform xil_pn:end_ts="1500825285" xil_pn:in_ck="2063562405651741468" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1500825284">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="CLA.vhd"/>
@@ -123,10 +124,12 @@
     <transform xil_pn:end_ts="1500824330" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8726773851785061603" xil_pn:start_ts="1500824330">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1500824330" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8073709458351302766" xil_pn:start_ts="1500824330">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1500818441" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-994514357919187402" xil_pn:start_ts="1500818441">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -135,6 +138,11 @@
     <transform xil_pn:end_ts="1500824899" xil_pn:in_ck="2063562405651741468" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1500824899">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="CLA.vhd"/>
       <outfile xil_pn:name="CSA16.vhd"/>
       <outfile xil_pn:name="CSA8.vhd"/>
@@ -154,6 +162,12 @@
     <transform xil_pn:end_ts="1500824904" xil_pn:in_ck="2063562405651741468" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4493711754059686066" xil_pn:start_ts="1500824899">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="MinAbs_beh.prj"/>
       <outfile xil_pn:name="MinAbs_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -163,6 +177,10 @@
     <transform xil_pn:end_ts="1500824904" xil_pn:in_ck="-2960862437854721903" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1293842848619180287" xil_pn:start_ts="1500824904">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="MinAbs_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
     </transform>
