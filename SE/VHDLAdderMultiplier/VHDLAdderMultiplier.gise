@@ -78,6 +78,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Neg_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Subtrator16_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Subtrator16_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Subtrator8_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
@@ -102,7 +103,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1500825285" xil_pn:in_ck="2063562405651741468" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1500825284">
+    <transform xil_pn:end_ts="1500826109" xil_pn:in_ck="7403617625792968858" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1500826109">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="CLA.vhd"/>
@@ -110,14 +111,18 @@
       <outfile xil_pn:name="CSA8.vhd"/>
       <outfile xil_pn:name="Max.vhd"/>
       <outfile xil_pn:name="Min.vhd"/>
+      <outfile xil_pn:name="Min8.vhd"/>
       <outfile xil_pn:name="MinAbs.vhd"/>
+      <outfile xil_pn:name="MinAbs8.vhd"/>
       <outfile xil_pn:name="Multiplexer.vhd"/>
       <outfile xil_pn:name="Multiplexer16.vhd"/>
       <outfile xil_pn:name="Multiplexer4.vhd"/>
       <outfile xil_pn:name="Multiplexer8.vhd"/>
       <outfile xil_pn:name="MultiplicadorSomador8.vhd"/>
       <outfile xil_pn:name="Neg.vhd"/>
+      <outfile xil_pn:name="Neg8.vhd"/>
       <outfile xil_pn:name="Subtrator16.vhd"/>
+      <outfile xil_pn:name="Subtrator8.vhd"/>
       <outfile xil_pn:name="full1.vhd"/>
       <outfile xil_pn:name="half.vhd"/>
     </transform>
@@ -141,6 +146,7 @@
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="CLA.vhd"/>
