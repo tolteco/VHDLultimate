@@ -36,12 +36,24 @@ architecture Behavioral of MultiplicadorSomador8 is
 			Y : out std_logic_vector(15 downto 0)
 		);
 	end component;
+	
+	component Reg16 is
+		port(
+			Y    : in  std_logic_vector(15 downto 0);
+			clk  : in  std_logic;
+			load : in  std_logic;
+			S    : out std_logic_vector(15 downto 0)
+		);
+	end component;
+
+	signal ExtX         : std_logic_vector(15 downto 0);
+	signal ExtY         : std_logic_vector(15 downto 0);
 
 	signal Multiplier   : std_logic_vector(15 downto 0) := x"0000";
-	signal Multiplicand : std_logic_vector(15 downto 0) := x"0000";
-	signal Sum_Carry    : std_logic_vector(15 downto 0); --Sum this value n times for result
+	signal Multiplicand : std_logic_vector(15 downto 0);
 	
-	signal Temp_MulCand : std_logic_vector(15 downto 0);
+	signal Acc_MultCand : std_logic_vector(15 downto 0) := x"0000"; --Sum this value n times for result
+	signal Temp_MulCand : std_logic_vector(15 downto 0) := x"0000";
 	signal Temp_MulPler : std_logic_vector(15 downto 0);
 	
 	constant zeros      : std_logic_vector(Multiplier'range) := (others => '0');
@@ -49,28 +61,45 @@ architecture Behavioral of MultiplicadorSomador8 is
 	
 	signal Cin, Cout    : std_logic;
 begin
+
+	----------------------------------------------------------------------------------------------------------------
+	-- FIXED
+	----------------------------------------------------------------------------------------------------------------
 	u_ex0 : Expand
-		port map (Y,Sum_Carry);
+		port map (Y, ExtY);
 		
-	u_ca0 : MinAbs8
+	u_ex1 : Expand
+		port map (X, ExtX);
+	
+	u_const1 : MinAbs8
 		port map (X, Y, Multiplier(7 downto 0)); --Nao tera problema de sinal, ja que "minabs" retorna um positivo
 	
+	u_const2 : Max
+		port map (ExtX, ExtY, Multiplicand);
+	----------------------------------------------------------------------------------------------------------------
+		
 	u_ca1 : CSA16
-		port map (Sum_Carry, Multiplicand, Cin, Cout, Temp_MulCand);
+		port map (Multiplicand, Temp_MulCand, Cin, Cout, Acc_MultCand);
 		
 	u_dec : CSA16
 		port map (Multiplier, MinusOne, Cin, Cout, Temp_MulPler);
+	
+	----------------------------------------------------------------------------------------------------------------
+	-- Load for next round
+	----------------------------------------------------------------------------------------------------------------
+	u_reg0 : Reg16
+		port map(Acc_MultCand, Clock, '1', Temp_MulCand);
+		
+	u_reg1 : Reg16
+		port map(Temp_MulPler, Clock, '1', Multiplier);
 
 	process (Clock) is
 	begin
-		
-		if rising_edge(Clock) and Multiplier /= zeros then
-		--if Multiplier /= then
-			Multiplicand <= Temp_MulCand;
-			Multiplier   <= Temp_MulPler;
-			
-		end if;
-	
+		--for i in X'low to X'high+1 loop --16bits mais 1 de init
+		--	wait until falling_edge(clk);
+		--end loop;
+
+		Sout <= Multiplicand;
 	end process;
 
 

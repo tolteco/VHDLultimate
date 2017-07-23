@@ -25,7 +25,7 @@
 
 
 
-extern void work_a_0598895731_3212880686_init()
+extern void work_a_2092195719_3212880686_init()
 {
-	xsi_register_didat("work_a_0598895731_3212880686", "isim/MinAbs8_isim_beh.exe.sim/work/a_0598895731_3212880686.didat");
+	xsi_register_didat("work_a_2092195719_3212880686", "isim/MultiplicadorSomador8_isim_beh.exe.sim/work/a_2092195719_3212880686.didat");
 }

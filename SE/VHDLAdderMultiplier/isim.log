@@ -13,18 +13,14 @@ Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 # isim force add /multiplicadorsomador8/x 10 -radix bin
 # isim force add /multiplicadorsomador8/y 10 -radix bin
-# isim force add /multiplicadorsomador8/clock 1 -radix bin -value 0 -radix bin -time 24 ps -repeat 48 ps
-# isim force add /multiplicadorsomador8/clock 1 -radix bin -value 0 -radix bin -time 24 ns -repeat 48 ns
+# isim force add /multiplicadorsomador8/clock 0 -radix bin -value 1 -radix bin -time 50 ns -repeat 100 ns
 # run 1.00us
-# isim force add /multiplicadorsomador8/clock 0 -radix bin -value 1 -radix bin -time 26 ns -repeat 52 ns
+# isim force add /multiplicadorsomador8/clock 1 -radix bin -value 0 -radix bin -time 50 ns -repeat 100 ns
+# run 1.00us
 # restart
+# isim force add /multiplicadorsomador8/x 10 -radix bin
+# isim force add /multiplicadorsomador8/y 10 -radix bin
+# isim force add /multiplicadorsomador8/clock 1 -radix bin -value 0 -radix bin -time 50 ns -repeat 100 ns
 # run 1.00us
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-# isim force add /multiplicadorsomador8/x 10 -radix bin
-# isim force add /multiplicadorsomador8/y 10 -radix bin
-# isim force add /multiplicadorsomador8/clock 0 -radix bin -value 1 -radix bin -time 26 ns -repeat 52 ns
-# run 1.00us
-# isim force add /multiplicadorsomador8/clock 0 -radix bin -value 1 -radix bin -time 5 ns -repeat 10 ns
-# isim force add /multiplicadorsomador8/clock 0 -radix bin -value 1 -radix bin -time 5 ns -repeat 10 ns
-# run 1.00us

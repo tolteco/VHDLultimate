@@ -2,29 +2,29 @@ Command line:
    MultiplicadorSomador8_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  63785
+     -socket  60337
 
-Sun Jul 23 14:42:59 2017
+Sun Jul 23 16:00:43 2017
 
 
- Elaboration Time: 0.078001 sec
-
- Current Memory Usage: 675.877 Meg
-
- Total Signals          : 2460
- Total Nets             : 1138
- Total Signal Drivers   : 893
- Total Blocks           : 453
- Total Primitive Blocks : 289
- Total Processes        : 675
- Total Traceable Variables  : 140
- Total Scalar Nets and Variables : 1674
-Total Line Count : 893
-Total Line Count : 893
-
- Total Simulation Time: 0.624004 sec
+ Elaboration Time: 0.046801 sec
 
  Current Memory Usage: 675.877 Meg
 
-Sun Jul 23 14:47:57 2017
+ Total Signals          : 2545
+ Total Nets             : 1155
+ Total Signal Drivers   : 923
+ Total Blocks           : 470
+ Total Primitive Blocks : 305
+ Total Processes        : 707
+ Total Traceable Variables  : 156
+ Total Scalar Nets and Variables : 1707
+Total Line Count : 939
+Total Line Count : 939
+
+ Total Simulation Time: 0.795605 sec
+
+ Current Memory Usage: 675.877 Meg
+
+Sun Jul 23 16:03:24 2017
 
