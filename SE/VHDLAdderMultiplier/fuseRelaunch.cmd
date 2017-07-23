@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Subtrator16_isim_beh.exe" -prj "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Subtrator16_beh.prj" "work.Subtrator16" 
+-intstyle "ise" -incremental -o "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Max_isim_beh.exe" -prj "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Max_beh.prj" "work.Max" 

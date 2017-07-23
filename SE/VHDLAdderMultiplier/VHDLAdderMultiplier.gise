@@ -29,7 +29,9 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CLA_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CSA16_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CSA8_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Max_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Max_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Max_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Max_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Multiplexer16_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplexer16_stx_beh.prj"/>
@@ -67,9 +69,7 @@
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Multiplexer8_usage.xml"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplexer8_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Multiplexer8_xst.xrpt"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Subtrator16_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Subtrator16_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Subtrator16_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
@@ -110,11 +110,11 @@
       <outfile xil_pn:name="full1.vhd"/>
       <outfile xil_pn:name="half.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1500818887" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4335862020554684720" xil_pn:start_ts="1500818887">
+    <transform xil_pn:end_ts="1500819206" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6722046617286406807" xil_pn:start_ts="1500819206">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1500818887" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3037886763838126843" xil_pn:start_ts="1500818887">
+    <transform xil_pn:end_ts="1500819206" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6187253449181606110" xil_pn:start_ts="1500819206">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -137,20 +137,20 @@
       <outfile xil_pn:name="full1.vhd"/>
       <outfile xil_pn:name="half.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1500819140" xil_pn:in_ck="3675978455042246590" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4429192915465220104" xil_pn:start_ts="1500819135">
+    <transform xil_pn:end_ts="1500819210" xil_pn:in_ck="3675978455042246590" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6179738043526846518" xil_pn:start_ts="1500819206">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Subtrator16_beh.prj"/>
-      <outfile xil_pn:name="Subtrator16_isim_beh.exe"/>
+      <outfile xil_pn:name="Max_beh.prj"/>
+      <outfile xil_pn:name="Max_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1500819140" xil_pn:in_ck="3292658517734674028" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7229914368642791365" xil_pn:start_ts="1500819140">
+    <transform xil_pn:end_ts="1500819211" xil_pn:in_ck="3292658517734674028" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="186468333477615351" xil_pn:start_ts="1500819210">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Subtrator16_isim_beh.wdb"/>
+      <outfile xil_pn:name="Max_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
