@@ -2,12 +2,12 @@ Command line:
    Max_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  62001
+     -socket  56686
 
-Sun Jul 23 11:13:33 2017
+Sun Jul 23 11:50:47 2017
 
 
- Elaboration Time: 0.0624 sec
+ Elaboration Time: 0.062401 sec
 
  Current Memory Usage: 667.488 Meg
 
@@ -21,9 +21,9 @@ Sun Jul 23 11:13:33 2017
  Total Scalar Nets and Variables : 805
 Total Line Count : 311
 
- Total Simulation Time: 0.140401 sec
+ Total Simulation Time: 0.093601 sec
 
- Current Memory Usage: 667.488 Meg
+ Current Memory Usage: 982.061 Meg
 
-Sun Jul 23 11:13:57 2017
+Sun Jul 23 11:51:28 2017
 

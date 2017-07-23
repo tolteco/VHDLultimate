@@ -11,6 +11,8 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-# isim force add /max/x 1 -radix bin
-# isim force add /max/y 10 -radix bin
+# isim force add /max/x 1111100000000000 -radix bin
+# isim force add /max/y 0 -radix bin
+# run 1.00us
+# isim force add /max/x 111111111 -radix bin
 # run 1.00us

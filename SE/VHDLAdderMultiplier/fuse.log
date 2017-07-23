@@ -30,8 +30,8 @@ Compiling architecture behavioral of entity Subtrator16 [\Subtrator16(4000)\]
 Compiling architecture behavioral of entity Multiplexer16 [\Multiplexer16(4000)\]
 Compiling architecture behavioral of entity max
 Time Resolution for simulation is 1ps.
-Waiting for 2 sub-compilation(s) to finish...
+Waiting for 1 sub-compilation(s) to finish...
 Compiled 23 VHDL Units
 Built simulation executable C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Max_isim_beh.exe
-Fuse Memory Usage: 30368 KB
-Fuse CPU Usage: 685 ms
+Fuse Memory Usage: 30288 KB
+Fuse CPU Usage: 826 ms

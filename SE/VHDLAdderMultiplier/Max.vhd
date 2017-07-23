@@ -35,7 +35,7 @@ begin
 		port map (X, Y, C_Out, X_Minus_Y);
 		
 	u_ca1 : Multiplexer16
-		port map (X, Y, X_Minus_Y(0), S); 
+		port map (X, Y, X_Minus_Y(15), S); 
 	
 end Behavioral;
 

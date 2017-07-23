@@ -33,6 +33,8 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Max_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Max_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Max_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Min_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Min_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Multiplexer16_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplexer16_stx_beh.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Multiplexer8.bld"/>
@@ -95,26 +97,28 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1500819135" xil_pn:in_ck="3675978455042246590" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1500819135">
+    <transform xil_pn:end_ts="1500821440" xil_pn:in_ck="-559064139690838616" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1500821440">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="CLA.vhd"/>
       <outfile xil_pn:name="CSA16.vhd"/>
       <outfile xil_pn:name="CSA8.vhd"/>
       <outfile xil_pn:name="Max.vhd"/>
+      <outfile xil_pn:name="Min.vhd"/>
       <outfile xil_pn:name="Multiplexer.vhd"/>
       <outfile xil_pn:name="Multiplexer16.vhd"/>
       <outfile xil_pn:name="Multiplexer4.vhd"/>
       <outfile xil_pn:name="Multiplexer8.vhd"/>
+      <outfile xil_pn:name="MultiplicadorSomador8.vhd"/>
       <outfile xil_pn:name="Subtrator16.vhd"/>
       <outfile xil_pn:name="full1.vhd"/>
       <outfile xil_pn:name="half.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1500819206" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6722046617286406807" xil_pn:start_ts="1500819206">
+    <transform xil_pn:end_ts="1500821440" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6722046617286406807" xil_pn:start_ts="1500821440">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1500819206" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6187253449181606110" xil_pn:start_ts="1500819206">
+    <transform xil_pn:end_ts="1500821440" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6187253449181606110" xil_pn:start_ts="1500821440">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -122,22 +126,24 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1500819135" xil_pn:in_ck="3675978455042246590" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1500819135">
+    <transform xil_pn:end_ts="1500821440" xil_pn:in_ck="-559064139690838616" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1500821440">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="CLA.vhd"/>
       <outfile xil_pn:name="CSA16.vhd"/>
       <outfile xil_pn:name="CSA8.vhd"/>
       <outfile xil_pn:name="Max.vhd"/>
+      <outfile xil_pn:name="Min.vhd"/>
       <outfile xil_pn:name="Multiplexer.vhd"/>
       <outfile xil_pn:name="Multiplexer16.vhd"/>
       <outfile xil_pn:name="Multiplexer4.vhd"/>
       <outfile xil_pn:name="Multiplexer8.vhd"/>
+      <outfile xil_pn:name="MultiplicadorSomador8.vhd"/>
       <outfile xil_pn:name="Subtrator16.vhd"/>
       <outfile xil_pn:name="full1.vhd"/>
       <outfile xil_pn:name="half.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1500819210" xil_pn:in_ck="3675978455042246590" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6179738043526846518" xil_pn:start_ts="1500819206">
+    <transform xil_pn:end_ts="1500821445" xil_pn:in_ck="-559064139690838616" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6179738043526846518" xil_pn:start_ts="1500821440">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Max_beh.prj"/>
@@ -147,7 +153,7 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1500819211" xil_pn:in_ck="3292658517734674028" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="186468333477615351" xil_pn:start_ts="1500819210">
+    <transform xil_pn:end_ts="1500821445" xil_pn:in_ck="-8181572233959845057" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="186468333477615351" xil_pn:start_ts="1500821445">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Max_isim_beh.wdb"/>
