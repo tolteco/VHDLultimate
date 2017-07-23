@@ -19,6 +19,7 @@ architecture Behavioral of MultiplicadorSomador8 is
 		);
 	end component;
 	
+	
 begin
 
 
