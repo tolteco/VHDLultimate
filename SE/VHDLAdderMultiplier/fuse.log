@@ -1,42 +1,16 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/MinAbs_isim_beh.exe -prj C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/MinAbs_beh.prj work.MinAbs 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Expand_isim_beh.exe -prj C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Expand_beh.prj work.Expand 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/half.vhd" into library work
-Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Multiplexer.vhd" into library work
-Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/full1.vhd" into library work
-Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Multiplexer4.vhd" into library work
-Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CLA.vhd" into library work
-Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Multiplexer8.vhd" into library work
-Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CSA8.vhd" into library work
-Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CSA16.vhd" into library work
-Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Subtrator16.vhd" into library work
-Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Multiplexer16.vhd" into library work
-Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Neg.vhd" into library work
-Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Min.vhd" into library work
-WARNING:HDLCompiler:946 - "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Min.vhd" Line 38: Actual for formal port sel is neither a static name nor a globally static expression
-Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/MinAbs.vhd" into library work
+Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Expand.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
-Compiling architecture behavioral of entity HalfAdder [halfadder_default]
-Compiling architecture behavioral of entity Adder [adder_default]
-Compiling architecture behavioral of entity CLA [\CLA(4000)\]
-Compiling architecture behavioral of entity Multiplexer [\Multiplexer(4000)\]
-Compiling architecture behavioral of entity Multiplexer4 [\Multiplexer4(4000)\]
-Compiling architecture behavioral of entity CSA8 [\CSA8(4000)\]
-Compiling architecture behavioral of entity Multiplexer8 [\Multiplexer8(4000)\]
-Compiling architecture behavioral of entity CSA16 [\CSA16(4000)\]
-Compiling architecture behavioral of entity Neg [\Neg(4000)\]
-Compiling architecture behavioral of entity Subtrator16 [\Subtrator16(4000)\]
-Compiling architecture behavioral of entity Multiplexer16 [\Multiplexer16(4000)\]
-Compiling architecture behavioral of entity Min [\Min(4000)\]
-Compiling architecture behavioral of entity minabs
+Compiling architecture behavioral of entity expand
 Time Resolution for simulation is 1ps.
-Waiting for 2 sub-compilation(s) to finish...
-Compiled 27 VHDL Units
-Built simulation executable C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/MinAbs_isim_beh.exe
-Fuse Memory Usage: 30456 KB
-Fuse CPU Usage: 733 ms
+Compiled 3 VHDL Units
+Built simulation executable C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Expand_isim_beh.exe
+Fuse Memory Usage: 29536 KB
+Fuse CPU Usage: 655 ms

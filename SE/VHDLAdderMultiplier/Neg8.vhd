@@ -30,7 +30,7 @@ begin
 		NX <= not(X);
 	
 		u_ca0 : CSA8
-			port map (NX, x"0000", '1', CT, S);
+			port map (NX, x"00", '1', CT, S);
 	--end if;	
 end Behavioral;
 
