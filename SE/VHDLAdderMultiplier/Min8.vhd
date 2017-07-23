@@ -28,14 +28,14 @@ architecture Behavioral of Min8 is
 		);
 	end component;
 	
-	signal X_Minus_Y : std_logic_vector(15 downto 0);
+	signal X_Minus_Y : std_logic_vector(7 downto 0);
 	signal C_Out : std_logic;
 begin
 	u_ca0 : Subtrator8
 		port map (X, Y, C_Out, X_Minus_Y);
 		
 	u_ca1 : Multiplexer8
-		port map (X, Y, not(X_Minus_Y(15)), S); 
+		port map (X, Y, not(X_Minus_Y(7)), S); 
 	
 end Behavioral;
 

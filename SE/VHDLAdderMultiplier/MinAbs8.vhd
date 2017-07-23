@@ -33,10 +33,10 @@ begin
 	u_ca_t1 : Neg8
 		port map (Y, NegY);
 
-	NX <= X when X(15) = '0' else
+	NX <= X when X(7) = '0' else
 			NegX;
 			
-	NY <= Y when Y(15) = '0' else
+	NY <= Y when Y(7) = '0' else
 			NegY;
 
 	u_ca0 : Min8

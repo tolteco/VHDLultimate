@@ -1,16 +1,44 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Expand_isim_beh.exe -prj C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Expand_beh.prj work.Expand 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/MultiplicadorSomador8_isim_beh.exe -prj C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/MultiplicadorSomador8_beh.prj work.MultiplicadorSomador8 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/half.vhd" into library work
+Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Multiplexer.vhd" into library work
+Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/full1.vhd" into library work
+Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Multiplexer4.vhd" into library work
+Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CLA.vhd" into library work
+Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CSA8.vhd" into library work
+Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Subtrator8.vhd" into library work
+Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Multiplexer8.vhd" into library work
+Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Neg8.vhd" into library work
+Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Min8.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Min8.vhd" Line 38: Actual for formal port sel is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/MinAbs8.vhd" into library work
 Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Expand.vhd" into library work
+Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CSA16.vhd" into library work
+Parsing VHDL file "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/MultiplicadorSomador8.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
-Compiling architecture behavioral of entity expand
+Compiling architecture behavioral of entity Expand [\Expand(4000)\]
+Compiling architecture behavioral of entity HalfAdder [halfadder_default]
+Compiling architecture behavioral of entity Adder [adder_default]
+Compiling architecture behavioral of entity CLA [\CLA(4000)\]
+Compiling architecture behavioral of entity Multiplexer [\Multiplexer(4000)\]
+Compiling architecture behavioral of entity Multiplexer4 [\Multiplexer4(4000)\]
+Compiling architecture behavioral of entity CSA8 [\CSA8(4000)\]
+Compiling architecture behavioral of entity Neg8 [\Neg8(4000)\]
+Compiling architecture behavioral of entity Subtrator8 [\Subtrator8(4000)\]
+Compiling architecture behavioral of entity Multiplexer8 [\Multiplexer8(4000)\]
+Compiling architecture behavioral of entity Min8 [\Min8(4000)\]
+Compiling architecture behavioral of entity MinAbs8 [\MinAbs8(4000)\]
+Compiling architecture behavioral of entity CSA16 [\CSA16(4000)\]
+Compiling architecture behavioral of entity multiplicadorsomador8
 Time Resolution for simulation is 1ps.
-Compiled 3 VHDL Units
-Built simulation executable C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Expand_isim_beh.exe
-Fuse Memory Usage: 29536 KB
-Fuse CPU Usage: 655 ms
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 29 VHDL Units
+Built simulation executable C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/MultiplicadorSomador8_isim_beh.exe
+Fuse Memory Usage: 30452 KB
+Fuse CPU Usage: 795 ms

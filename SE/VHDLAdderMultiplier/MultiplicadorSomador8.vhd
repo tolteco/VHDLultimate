@@ -29,26 +29,45 @@ architecture Behavioral of MultiplicadorSomador8 is
 		);
 	end component;
 
+	component Expand is
+		generic(DELAY : time := 4.0 ns);
+		port(
+			X : in  std_logic_vector(7 downto 0);
+			Y : out std_logic_vector(15 downto 0)
+		);
+	end component;
+
 	signal Multiplier   : std_logic_vector(15 downto 0) := x"0000";
-	signal Sum_Carry    : std_logic_vector(15 downto 0);
 	signal Multiplicand : std_logic_vector(15 downto 0) := x"0000";
-	constant zeros : std_logic_vector(Multiplier'range) := (others => '0');
+	signal Sum_Carry    : std_logic_vector(15 downto 0); --Sum this value n times for result
+	
+	signal Temp_MulCand : std_logic_vector(15 downto 0);
+	signal Temp_MulPler : std_logic_vector(15 downto 0);
+	
+	constant zeros      : std_logic_vector(Multiplier'range) := (others => '0');
+	constant MinusOne   : std_logic_vector(15 downto 0) := x"FFFF";
+	
+	signal Cin, Cout    : std_logic;
 begin
-	u_ca0 : ExpandNegative
-		port map
+	u_ex0 : Expand
+		port map (Y,Sum_Carry);
 		
 	u_ca0 : MinAbs8
 		port map (X, Y, Multiplier(7 downto 0)); --Nao tera problema de sinal, ja que "minabs" retorna um positivo
 	
 	u_ca1 : CSA16
-		port map (Multiplier, Multiplicand
+		port map (Sum_Carry, Multiplicand, Cin, Cout, Temp_MulCand);
+		
+	u_dec : CSA16
+		port map (Multiplier, MinusOne, Cin, Cout, Temp_MulPler);
+
 	process (Clock) is
 	begin
 		
-		if rising_edge(Clock) and Multiplier /= then
+		if rising_edge(Clock) and Multiplier /= zeros then
 		--if Multiplier /= then
-			
-			
+			Multiplicand <= Temp_MulCand;
+			Multiplier   <= Temp_MulPler;
 			
 		end if;
 	
