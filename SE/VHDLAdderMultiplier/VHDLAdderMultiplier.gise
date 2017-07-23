@@ -93,6 +93,9 @@
     <transform xil_pn:end_ts="1500749038" xil_pn:in_ck="-1224960844886199687" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1500749037">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="CLA.vhd"/>
       <outfile xil_pn:name="CSA16.vhd"/>
       <outfile xil_pn:name="CSA8.vhd"/>
@@ -113,10 +116,12 @@
     <transform xil_pn:end_ts="1500749038" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-996008991152213714" xil_pn:start_ts="1500749038">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1500749038" xil_pn:in_ck="-1224960844886199687" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1500749038">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="CLA.vhd"/>
       <outfile xil_pn:name="CSA16.vhd"/>
       <outfile xil_pn:name="CSA8.vhd"/>
@@ -129,6 +134,10 @@
     <transform xil_pn:end_ts="1500749042" xil_pn:in_ck="-1224960844886199687" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2730110406110640314" xil_pn:start_ts="1500749038">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="CSA16_beh.prj"/>
       <outfile xil_pn:name="CSA16_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -139,6 +148,10 @@
     <transform xil_pn:end_ts="1500749042" xil_pn:in_ck="7147093841910777066" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3058659322396103513" xil_pn:start_ts="1500749042">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="CSA16_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
