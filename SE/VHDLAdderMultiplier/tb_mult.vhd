@@ -4,6 +4,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity tb_mult is
 end tb_mult;
 
+
 architecture Behavioral of tb_mult is
 	component MultiplicadorSomador8 is
 		generic(DELAY : time := 4.0 ns);
@@ -20,7 +21,7 @@ architecture Behavioral of tb_mult is
 	signal X, Y : std_logic_vector(7 downto 0);
 	signal Res  : std_logic_vector(15 downto 0);
 begin
-	clk <= not clk after 14 ns; --Clk de 20 ns
+	clk <= not clk after 16 ns; --Clk de 20 ns
 	
 	u_top : MultiplicadorSomador8
 		port map (X, Y, clk, init, Res);
@@ -28,8 +29,9 @@ begin
 	process
 	begin
 		init <= '1';
-		X <= "00000011";
-		Y <= "00000010";
+		
+		X <= "00000101";
+		Y <= "11111110";
 		wait until falling_edge(clk);
 		
 		init <= '0';

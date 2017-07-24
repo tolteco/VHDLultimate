@@ -54,6 +54,14 @@ architecture Behavioral of MultiplicadorSomador8 is
 			S    : out std_logic_vector(15 downto 0)
 		);
 	end component;
+	
+	component Neg is
+		generic(DELAY : time := 4.0 ns);
+		port(
+			X : in  std_logic_vector(15 downto 0);
+			S : out std_logic_vector(15 downto 0)
+		);
+	end component;
 
 	component Multiplexer16 is
 		generic(DELAY : time := 4.0 ns);
@@ -70,6 +78,7 @@ architecture Behavioral of MultiplicadorSomador8 is
 	signal Multiplier   : std_logic_vector(15 downto 0);
 	signal Multiplicand : std_logic_vector(15 downto 0);
 	
+	signal NotAntCand  : std_logic_vector(15 downto 0);
 	signal Acc_MultCand, AntCand : std_logic_vector(15 downto 0); --Sum this value n times for result
 	signal Acc_MultPler, AntPler : std_logic_vector(15 downto 0);
 	signal Temp_MulCand : std_logic_vector(15 downto 0);
@@ -117,11 +126,27 @@ begin
 		
 	u_dec : CSA16
 		port map (Temp_MulPler, MinusOne,     Cin(1), Cout(1), AntPler);
+		
+	----------------------------------------------------------------------------------------------------------------
+	u_negTem : Neg
+		port map(AntCand, NotAntCand);
 	
 	process (Clock) is
 	begin
-		if falling_edge(Clock) and Temp_MulPler = zeros then
-			Sout <= Temp_MulCand;
+		-- if falling edge
+			-- if Multiplicand = 0
+			-- sout <= 0
+			-- else
+			--    if Ant_Pler = zeros
+			--
+		--
+	
+		if falling_edge(Clock) and AntPler = zeros then
+			if ExtY(15) = '1' then
+				Sout <= NotAntCand;
+			else
+				Sout <= AntCand;
+			end if;
 		end if;
 		
 		--for i in X'low to X'high+1 loop --16bits mais 1 de init
@@ -133,4 +158,3 @@ begin
 
 
 end Behavioral;
-
