@@ -9,3 +9,13 @@ Comportamento do MultiplicadorSomador8:
 
 Escolhe entre o menor (Valor absoluto) entre as entradas e considera-se esse valor como n.
 Soma-se o outro valor (x), |n| vezes. Caso n seja negativo, inverte-se o resultado.
+
+
+
+Tempos:
+
+CSA8  - 12ns
+CSA16 - 12ns - HOW?
+Subtrator16 - 20ns
+MinAbs8 - 16ns
+Reg(16) - 8ns

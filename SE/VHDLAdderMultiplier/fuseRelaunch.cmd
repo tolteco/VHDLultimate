@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/MultiplicadorSomador8_isim_beh.exe" -prj "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/MultiplicadorSomador8_beh.prj" "work.MultiplicadorSomador8" 
+-intstyle "ise" -incremental -o "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/tb_mult_isim_beh.exe" -prj "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/tb_mult_beh.prj" "work.tb_mult" 

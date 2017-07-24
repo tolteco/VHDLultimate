@@ -6,6 +6,7 @@ entity MultiplicadorSomador8 is
 	port(
 		X, Y : in  std_logic_vector(7 downto 0); -- X * Y
 		Clock: in  std_logic;           -- Clock
+		init : in  std_logic;
 		Sout : out std_logic_vector(15 downto 0) -- Saida
 	);
 end MultiplicadorSomador8;
@@ -19,11 +20,11 @@ architecture Behavioral of MultiplicadorSomador8 is
 		);
 	end component;
 	
-	component MinAbs8 is
+	component MinAbs is
 		generic(DELAY : time := 4.0 ns);
 		port(
-			X, Y : in  std_logic_vector(7 downto 0);
-			S    : out std_logic_vector(7 downto 0)
+			X, Y : in  std_logic_vector(15 downto 0);
+			S    : out std_logic_vector(15 downto 0)
 		);
 	end component;
 
@@ -54,22 +55,33 @@ architecture Behavioral of MultiplicadorSomador8 is
 		);
 	end component;
 
+	component Multiplexer16 is
+		generic(DELAY : time := 4.0 ns);
+		port(
+			X, Y : in  std_logic_vector(15 downto 0); -- X + Y
+			Sel  : in  std_logic;           -- Selector
+			Sout : out std_logic_vector(15 downto 0) -- Saida
+		);
+	end component;
+
 	signal ExtX         : std_logic_vector(15 downto 0);
 	signal ExtY         : std_logic_vector(15 downto 0);
 
-	signal Multiplier   : std_logic_vector(15 downto 0) := x"0000";
+	signal Multiplier   : std_logic_vector(15 downto 0);
 	signal Multiplicand : std_logic_vector(15 downto 0);
 	
-	signal Acc_MultCand : std_logic_vector(15 downto 0) := x"0000"; --Sum this value n times for result
-	signal Temp_MulCand : std_logic_vector(15 downto 0) := x"0000";
+	signal Acc_MultCand, AntCand : std_logic_vector(15 downto 0); --Sum this value n times for result
+	signal Acc_MultPler, AntPler : std_logic_vector(15 downto 0);
+	signal Temp_MulCand : std_logic_vector(15 downto 0);
 	signal Temp_MulPler : std_logic_vector(15 downto 0);
 	
 	constant zeros      : std_logic_vector(Multiplier'range) := (others => '0');
 	constant MinusOne   : std_logic_vector(15 downto 0) := x"FFFF";
 	
-	signal Cin, Cout    : std_logic;
+	signal Cin, Cout    : std_logic_vector(1 downto 0);
 begin
-
+	Cin <= "00";
+	
 	----------------------------------------------------------------------------------------------------------------
 	-- FIXED
 	----------------------------------------------------------------------------------------------------------------
@@ -79,35 +91,44 @@ begin
 	u_ex1 : Expand
 		port map (X, ExtX);
 	
-	u_const1 : MinAbs8
-		port map (X, Y, Multiplier(7 downto 0)); --Nao tera problema de sinal, ja que "minabs" retorna um positivo
+	u_const1 : MinAbs
+		port map (ExtX, ExtY, Multiplier);
 	
 	u_const2 : Max
 		port map (ExtX, ExtY, Multiplicand);
 	----------------------------------------------------------------------------------------------------------------
 		
-	u_ca1 : CSA16
-		port map (Multiplicand, Temp_MulCand, Cin, Cout, Acc_MultCand);
+	----------------------------------------------------------------------------------------------------------------
+	-- Load
+	----------------------------------------------------------------------------------------------------------------
+	u_mux0 : Multiplexer16
+		port map(AntCand, x"0000", init, Acc_MultCand);
+	u_mux1 : Multiplexer16
+		port map(AntPler, Multiplier, init, Acc_MultPler);
 		
-	u_dec : CSA16
-		port map (Multiplier, MinusOne, Cin, Cout, Temp_MulPler);
-	
-	----------------------------------------------------------------------------------------------------------------
-	-- Load for next round
-	----------------------------------------------------------------------------------------------------------------
 	u_reg0 : Reg16
 		port map(Acc_MultCand, Clock, '1', Temp_MulCand);
-		
 	u_reg1 : Reg16
-		port map(Temp_MulPler, Clock, '1', Multiplier);
-
+		port map(Acc_MultPler, Clock, '1', Temp_MulPler);
+			
+	----------------------------------------------------------------------------------------------------------------
+	u_ca1 : CSA16
+		port map (Temp_MulCand, Multiplicand, Cin(0), Cout(0), AntCand);
+		
+	u_dec : CSA16
+		port map (Temp_MulPler, MinusOne,     Cin(1), Cout(1), AntPler);
+	
 	process (Clock) is
 	begin
+		if falling_edge(Clock) and Temp_MulPler = zeros then
+			Sout <= Temp_MulCand;
+		end if;
+		
 		--for i in X'low to X'high+1 loop --16bits mais 1 de init
 		--	wait until falling_edge(clk);
 		--end loop;
 
-		Sout <= Multiplicand;
+		
 	end process;
 
 

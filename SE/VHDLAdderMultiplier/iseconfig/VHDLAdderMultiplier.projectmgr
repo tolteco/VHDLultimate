@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!--This is an ISE project configuration file.-->
 <!--It holds project specific layout data for the projectmgr plugin.-->
 <!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
@@ -8,21 +8,25 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/Adder - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|full1.vhd</ClosedNode>
+         <ClosedNode>/CLA - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CLA.vhd</ClosedNode>
          <ClosedNode>/CLA - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CLA.vhd/u_ca0 - Adder - Behavioral</ClosedNode>
          <ClosedNode>/CLA - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CLA.vhd/u_ca1 - Adder - Behavioral</ClosedNode>
          <ClosedNode>/CLA - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CLA.vhd/u_ca2 - Adder - Behavioral</ClosedNode>
          <ClosedNode>/CLA - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CLA.vhd/u_ca3 - Adder - Behavioral</ClosedNode>
+         <ClosedNode>/ExpandNegative - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|ExpandNegative.vhd</ClosedNode>
+         <ClosedNode>/MinAbs8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MinAbs8.vhd</ClosedNode>
          <ClosedNode>/Multiplexer4 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Multiplexer4.vhd</ClosedNode>
          <ClosedNode>/Multiplexer8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Multiplexer8.vhd</ClosedNode>
+         <ClosedNode>/MultiplicadorSomador8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MultiplicadorSomador8.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Multiplexer8 - Behavioral (C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Multiplexer8.vhd)</SelectedItem>
+         <SelectedItem>MultiplicadorSomador8 - Behavioral (C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/MultiplicadorSomador8.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000013a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000013a0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a2000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a20000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Multiplexer8 - Behavioral (C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/Multiplexer8.vhd)</CurrentItem>
+      <CurrentItem>MultiplicadorSomador8 - Behavioral (C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/MultiplicadorSomador8.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -30,13 +34,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -75,10 +79,148 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ef000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ef0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/CLA - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CLA.vhd</ClosedNode>
+         <ClosedNode>/CSA16 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CSA16.vhd/u_ca0 - CSA8 - Behavioral</ClosedNode>
+         <ClosedNode>/CSA16 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CSA16.vhd/u_ca1 - CSA8 - Behavioral</ClosedNode>
+         <ClosedNode>/CSA16 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CSA16.vhd/u_ca2 - CSA8 - Behavioral</ClosedNode>
+         <ClosedNode>/CSA16 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CSA16.vhd/u_ca3 - Multiplexer8 - Behavioral</ClosedNode>
+         <ClosedNode>/CSA8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CSA8.vhd/u_ca0 - CLA - Behavioral</ClosedNode>
+         <ClosedNode>/CSA8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CSA8.vhd/u_ca1 - CLA - Behavioral</ClosedNode>
+         <ClosedNode>/CSA8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CSA8.vhd/u_ca2 - CLA - Behavioral</ClosedNode>
+         <ClosedNode>/CSA8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CSA8.vhd/u_ca3 - Multiplexer4 - Behavioral</ClosedNode>
+         <ClosedNode>/ExpandNegative - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|ExpandNegative.vhd</ClosedNode>
+         <ClosedNode>/ExpandNegative - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|ExpandNegative.vhd/u_ca0 - Neg - Behavioral</ClosedNode>
+         <ClosedNode>/ExpandNegative - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|ExpandNegative.vhd/u_ca_t0 - Neg8 - Behavioral/u_ca0 - CSA8 - Behavioral/u_ca0 - CLA - Behavioral</ClosedNode>
+         <ClosedNode>/ExpandNegative - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|ExpandNegative.vhd/u_ca_t0 - Neg8 - Behavioral/u_ca0 - CSA8 - Behavioral/u_ca1 - CLA - Behavioral</ClosedNode>
+         <ClosedNode>/ExpandNegative - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|ExpandNegative.vhd/u_ca_t0 - Neg8 - Behavioral/u_ca0 - CSA8 - Behavioral/u_ca2 - CLA - Behavioral</ClosedNode>
+         <ClosedNode>/Max - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Max.vhd</ClosedNode>
+         <ClosedNode>/Max - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Max.vhd/u_ca0 - Subtrator16 - Behavioral/u_ca0 - CSA16 - Behavioral/u_ca0 - CSA8 - Behavioral</ClosedNode>
+         <ClosedNode>/Max - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Max.vhd/u_ca0 - Subtrator16 - Behavioral/u_ca0 - CSA16 - Behavioral/u_ca1 - CSA8 - Behavioral</ClosedNode>
+         <ClosedNode>/Max - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Max.vhd/u_ca0 - Subtrator16 - Behavioral/u_ca0 - CSA16 - Behavioral/u_ca2 - CSA8 - Behavioral</ClosedNode>
+         <ClosedNode>/Max - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Max.vhd/u_ca0 - Subtrator16 - Behavioral/u_ca0 - CSA16 - Behavioral/u_ca3 - Multiplexer8 - Behavioral</ClosedNode>
+         <ClosedNode>/Max - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Max.vhd/u_ca1 - Multiplexer16 - Behavioral</ClosedNode>
+         <ClosedNode>/Min - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Min.vhd</ClosedNode>
+         <ClosedNode>/Min8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Min8.vhd</ClosedNode>
+         <ClosedNode>/MinAbs - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MinAbs.vhd</ClosedNode>
+         <ClosedNode>/MinAbs - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MinAbs.vhd/u_ca0 - Min - Behavioral</ClosedNode>
+         <ClosedNode>/MinAbs - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MinAbs.vhd/u_ca_t0 - Neg - Behavioral</ClosedNode>
+         <ClosedNode>/MinAbs - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MinAbs.vhd/u_ca_t1 - Neg - Behavioral</ClosedNode>
+         <ClosedNode>/MinAbs - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MinAbs8.vhd</ClosedNode>
+         <ClosedNode>/MinAbs8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MinAbs8.vhd</ClosedNode>
+         <ClosedNode>/MinAbs8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MinAbs8.vhd/u_ca0 - Min8 - Behavioral</ClosedNode>
+         <ClosedNode>/MinAbs8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MinAbs8.vhd/u_ca0 - Min8 - Behavioral/u_ca0 - Subtrator8 - Behavioral</ClosedNode>
+         <ClosedNode>/MinAbs8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MinAbs8.vhd/u_ca0 - Min8 - Behavioral/u_ca1 - Multiplexer8 - Behavioral</ClosedNode>
+         <ClosedNode>/MinAbs8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MinAbs8.vhd/u_ca_t0 - Neg8 - Behavioral</ClosedNode>
+         <ClosedNode>/MinAbs8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MinAbs8.vhd/u_ca_t1 - Neg8 - Behavioral</ClosedNode>
+         <ClosedNode>/Multiplexer16 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Multiplexer16.vhd</ClosedNode>
+         <ClosedNode>/Multiplexer4 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Multiplexer4.vhd</ClosedNode>
+         <ClosedNode>/Multiplexer8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Multiplexer8.vhd</ClosedNode>
+         <ClosedNode>/MultiplicadorSomador8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MultiplicadorSomador8.vhd</ClosedNode>
+         <ClosedNode>/MultiplicadorSomador8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MultiplicadorSomador8.vhd/u_ca0 - MinAbs8 - Behavioral</ClosedNode>
+         <ClosedNode>/MultiplicadorSomador8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MultiplicadorSomador8.vhd/u_ca1 - CSA16 - Behavioral</ClosedNode>
+         <ClosedNode>/MultiplicadorSomador8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MultiplicadorSomador8.vhd/u_const1 - MinAbs - Behavioral</ClosedNode>
+         <ClosedNode>/MultiplicadorSomador8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MultiplicadorSomador8.vhd/u_const1 - MinAbs - Behavioral/u_ca0 - Min - Behavioral/u_ca0 - Subtrator16 - Behavioral</ClosedNode>
+         <ClosedNode>/MultiplicadorSomador8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MultiplicadorSomador8.vhd/u_const1 - MinAbs - Behavioral/u_ca_t0 - Neg - Behavioral</ClosedNode>
+         <ClosedNode>/MultiplicadorSomador8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MultiplicadorSomador8.vhd/u_const1 - MinAbs - Behavioral/u_ca_t1 - Neg - Behavioral</ClosedNode>
+         <ClosedNode>/MultiplicadorSomador8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MultiplicadorSomador8.vhd/u_const1 - MinAbs8 - Behavioral</ClosedNode>
+         <ClosedNode>/MultiplicadorSomador8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MultiplicadorSomador8.vhd/u_const2 - Max - Behavioral</ClosedNode>
+         <ClosedNode>/MultiplicadorSomador8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MultiplicadorSomador8.vhd/u_dec - CSA16 - Behavioral</ClosedNode>
+         <ClosedNode>/MultiplicadorSomador8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MultiplicadorSomador8.vhd/u_reg - Reg16 - Behavioral</ClosedNode>
+         <ClosedNode>/MultiplicadorSomador8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MultiplicadorSomador8.vhd/u_reg0 - Reg16 - Behavioral</ClosedNode>
+         <ClosedNode>/MultiplicadorSomador8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MultiplicadorSomador8.vhd/u_reg1 - Reg16 - Behavioral</ClosedNode>
+         <ClosedNode>/Neg - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Neg.vhd</ClosedNode>
+         <ClosedNode>/Neg8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Neg8.vhd</ClosedNode>
+         <ClosedNode>/Reg16 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Reg16.vhd</ClosedNode>
+         <ClosedNode>/Reg16 - comportamento C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Reg16.vhd</ClosedNode>
+         <ClosedNode>/Subtrator16 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Subtrator16.vhd</ClosedNode>
+         <ClosedNode>/Subtrator16 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|Subtrator8.vhd</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_ca1 - CSA16 - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_const1 - MinAbs - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_const1 - MinAbs - Behavioral/u_ca0 - Min - Behavioral/u_ca0 - Subtrator16 - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_const1 - MinAbs - Behavioral/u_ca0 - Min - Behavioral/u_ca1 - Multiplexer16 - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_const1 - MinAbs - Behavioral/u_ca_t0 - Neg - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_const1 - MinAbs - Behavioral/u_ca_t1 - Neg - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_const2 - Max - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_const2 - Max - Behavioral/u_ca0 - Subtrator16 - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_const2 - Max - Behavioral/u_ca1 - Multiplexer16 - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_dec - CSA16 - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_mux0 - Multiplexer16 - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_mux1 - Multiplexer16 - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_reg0 - Reg16 - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_reg1 - Reg16 - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_regi1 - Reg16 - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_regi2 - Reg16 - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>tb_mult - Behavioral (C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/tb_mult.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001df000000020000000000000000000000000200000064ffffffff000000810000000300000002000001df0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>tb_mult - Behavioral (C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/tb_mult.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ef000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ef0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ef000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ef0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostTransSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>xc3sd1800a-4fg676</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000de000000020000000100000000000000000200000064ffffffff000000810000000300000002000000de0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>xc3sd1800a-4fg676</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostTransSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ef000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ef0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
 </Project>
