@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/tb_mult_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="tb_mult" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/tb_mult/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/init" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">init</obj_property>
+      <obj_property name="ObjectShortName">init</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x[7:0]</obj_property>
+      <obj_property name="ObjectShortName">x[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y[7:0]</obj_property>
+      <obj_property name="ObjectShortName">y[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/res" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">res[15:0]</obj_property>
+      <obj_property name="ObjectShortName">res[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/u_top/sout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/u_top/extx" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">extx[15:0]</obj_property>
+      <obj_property name="ObjectShortName">extx[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/u_top/exty" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">exty[15:0]</obj_property>
+      <obj_property name="ObjectShortName">exty[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/u_top/multiplier" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">multiplier[15:0]</obj_property>
+      <obj_property name="ObjectShortName">multiplier[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/u_top/multiplicand" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">multiplicand[15:0]</obj_property>
+      <obj_property name="ObjectShortName">multiplicand[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/u_top/notantcand" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">notantcand[15:0]</obj_property>
+      <obj_property name="ObjectShortName">notantcand[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/u_top/acc_multcand" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">acc_multcand[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_multcand[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/u_top/antcand" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">antcand[15:0]</obj_property>
+      <obj_property name="ObjectShortName">antcand[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/u_top/acc_multpler" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">acc_multpler[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_multpler[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/u_top/antpler" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">antpler[15:0]</obj_property>
+      <obj_property name="ObjectShortName">antpler[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/u_top/temp_mulcand" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">temp_mulcand[15:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_mulcand[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/u_top/temp_mulpler" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">temp_mulpler[15:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_mulpler[15:0]</obj_property>
+   </wvobject>
+</wave_config>

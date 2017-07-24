@@ -21,7 +21,7 @@ architecture Behavioral of tb_mult is
 	signal X, Y : std_logic_vector(7 downto 0);
 	signal Res  : std_logic_vector(15 downto 0);
 begin
-	clk <= not clk after 16 ns; --Clk de 20 ns
+	clk <= not clk after 20 ns; --Clk de 20 ns
 	
 	u_top : MultiplicadorSomador8
 		port map (X, Y, clk, init, Res);
