@@ -97,10 +97,12 @@
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_mult_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_mult_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_mult_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_mult_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_u_mult_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
@@ -116,7 +118,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1501029031" xil_pn:in_ck="9159557581474049623" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1501029031">
+    <transform xil_pn:end_ts="1501107390" xil_pn:in_ck="-8769556762018251670" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1501107390">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="CLA.vhd"/>
@@ -140,15 +142,19 @@
       <outfile xil_pn:name="Reg16.vhd"/>
       <outfile xil_pn:name="Subtrator16.vhd"/>
       <outfile xil_pn:name="Subtrator8.vhd"/>
+      <outfile xil_pn:name="U_Expand.vhd"/>
+      <outfile xil_pn:name="U_Max.vhd"/>
+      <outfile xil_pn:name="U_MultiplicadorSomador8.vhd"/>
       <outfile xil_pn:name="full1.vhd"/>
       <outfile xil_pn:name="half.vhd"/>
       <outfile xil_pn:name="tb_mult.vhd"/>
+      <outfile xil_pn:name="tb_u_mult.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1501028591" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1943739952328697658" xil_pn:start_ts="1501028591">
+    <transform xil_pn:end_ts="1501086536" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1943739952328697658" xil_pn:start_ts="1501086536">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1501028591" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7357339382610347503" xil_pn:start_ts="1501028591">
+    <transform xil_pn:end_ts="1501086536" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7357339382610347503" xil_pn:start_ts="1501086536">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -156,7 +162,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1501029031" xil_pn:in_ck="9159557581474049623" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1501029031">
+    <transform xil_pn:end_ts="1501107390" xil_pn:in_ck="-8769556762018251670" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1501107390">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="CLA.vhd"/>
@@ -180,28 +186,29 @@
       <outfile xil_pn:name="Reg16.vhd"/>
       <outfile xil_pn:name="Subtrator16.vhd"/>
       <outfile xil_pn:name="Subtrator8.vhd"/>
+      <outfile xil_pn:name="U_Expand.vhd"/>
+      <outfile xil_pn:name="U_Max.vhd"/>
+      <outfile xil_pn:name="U_MultiplicadorSomador8.vhd"/>
       <outfile xil_pn:name="full1.vhd"/>
       <outfile xil_pn:name="half.vhd"/>
       <outfile xil_pn:name="tb_mult.vhd"/>
+      <outfile xil_pn:name="tb_u_mult.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1501029036" xil_pn:in_ck="9159557581474049623" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6137511816247396724" xil_pn:start_ts="1501029031">
+    <transform xil_pn:end_ts="1501107395" xil_pn:in_ck="-8769556762018251670" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6137511816247396724" xil_pn:start_ts="1501107390">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="tb_mult_beh.prj"/>
       <outfile xil_pn:name="tb_mult_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1501029037" xil_pn:in_ck="-1177413696566126657" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7151038512849381223" xil_pn:start_ts="1501029036">
+    <transform xil_pn:end_ts="1501107396" xil_pn:in_ck="-8074492976165869575" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7151038512849381223" xil_pn:start_ts="1501107395">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="tb_mult_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1500746414" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1500746414">

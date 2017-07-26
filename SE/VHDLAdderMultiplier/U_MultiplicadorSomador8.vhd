@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity MultiplicadorSomador8 is
+entity U_MultiplicadorSomador8 is
 	generic(DELAY : time := 4.0 ns);
 	port(
 		X, Y : in  std_logic_vector(7 downto 0); -- X * Y
@@ -9,10 +9,10 @@ entity MultiplicadorSomador8 is
 		init : in  std_logic;
 		Sout : out std_logic_vector(15 downto 0) -- Saida
 	);
-end MultiplicadorSomador8;
+end U_MultiplicadorSomador8;
 
-architecture Behavioral of MultiplicadorSomador8 is
-	component Max is
+architecture Behavioral of U_MultiplicadorSomador8 is
+	component U_Max is
 		generic(DELAY : time := 4.0 ns);
 		port(
 			X, Y : in  std_logic_vector(15 downto 0);
@@ -39,7 +39,7 @@ architecture Behavioral of MultiplicadorSomador8 is
 		);
 	end component;
 
-	component Expand is
+	component U_Expand is
 		generic(DELAY : time := 4.0 ns);
 		port(
 			X : in  std_logic_vector(7 downto 0);
@@ -53,14 +53,6 @@ architecture Behavioral of MultiplicadorSomador8 is
 			clk  : in  std_logic;
 			load : in  std_logic;
 			S    : out std_logic_vector(15 downto 0)
-		);
-	end component;
-	
-	component Neg is
-		generic(DELAY : time := 4.0 ns);
-		port(
-			X : in  std_logic_vector(15 downto 0);
-			S : out std_logic_vector(15 downto 0)
 		);
 	end component;
 
@@ -78,35 +70,33 @@ architecture Behavioral of MultiplicadorSomador8 is
 
 	signal Multiplier   : std_logic_vector(15 downto 0);
 	signal Multiplicand : std_logic_vector(15 downto 0);
-	
-	signal NotAntCand  : std_logic_vector(15 downto 0);
-	signal Acc_MultCand, AntCand : std_logic_vector(15 downto 0); --Sum this value n times for result
+
+	signal Acc_MultCand, AntCand : std_logic_vector(15 downto 0);
 	signal Acc_MultPler, AntPler : std_logic_vector(15 downto 0);
 	signal Temp_MulCand : std_logic_vector(15 downto 0);
 	signal Temp_MulPler : std_logic_vector(15 downto 0);
-	
-	signal NegativeMultiplierFlag : std_logic;
 	
 	constant zeros      : std_logic_vector(Multiplier'range) := (others => '0');
 	constant MinusOne   : std_logic_vector(15 downto 0) := x"FFFF";
 	
 	signal Cin, Cout    : std_logic_vector(1 downto 0);
+	signal Flag : std_logic;
 begin
 	Cin <= "00";
 	
 	----------------------------------------------------------------------------------------------------------------
 	-- FIXED
 	----------------------------------------------------------------------------------------------------------------
-	u_ex0 : Expand
+	u_ex0 : U_Expand
 		port map (Y, ExtY);
 		
-	u_ex1 : Expand
+	u_ex1 : U_Expand
 		port map (X, ExtX);
 	
 	u_const1 : MinAbs
-		port map (ExtX, ExtY, NegativeMultiplierFlag, Multiplier);
+		port map (ExtX, ExtY, Flag, Multiplier);
 	
-	u_const2 : Max
+	u_const2 : U_Max
 		port map (ExtX, ExtY, Multiplicand);
 		
 	----------------------------------------------------------------------------------------------------------------
@@ -131,23 +121,13 @@ begin
 	u_dec : CSA16
 		port map (Temp_MulPler, MinusOne,     Cin(1), Cout(1), AntPler);
 		
-	----------------------------------------------------------------------------------------------------------------
-	-- Negate
-	----------------------------------------------------------------------------------------------------------------
-	u_negTem : Neg
-		port map(AntCand, NotAntCand);
-	
 	process (Clock) is
 	begin
 		if falling_edge(Clock) then
 			if Multiplier = zeros then
-				Sout <= zeros; --Mult por zero
+				Sout <= zeros;
 			elsif AntPler = zeros then
-				if NegativeMultiplierFlag = '1' then
-					Sout <= NotAntCand; --Multiplier Negativo
-				else
-					Sout <= AntCand; -- Multiplier Positivo
-				end if;
+				Sout <= AntCand;
 			end if;
 		end if;
 	end process;

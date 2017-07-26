@@ -1,12 +1,12 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity tb_mult is
-end tb_mult;
+entity tb_u_mult is
+end tb_u_mult;
 
 
-architecture Behavioral of tb_mult is
-	component MultiplicadorSomador8 is
+architecture Behavioral of tb_u_mult is
+	component U_MultiplicadorSomador8 is
 		generic(DELAY : time := 4.0 ns);
 		port(
 			X, Y : in  std_logic_vector(7 downto 0); -- X * Y
@@ -23,21 +23,19 @@ architecture Behavioral of tb_mult is
 begin
 	clk <= not clk after 20 ns; --Clk de 40 ns
 	
-	u_top : MultiplicadorSomador8
+	u_top : U_MultiplicadorSomador8
 		port map (X, Y, clk, init, Res);
 	
 	process
 	begin
 		init <= '1';
-		X <= "00000010";
-		Y <= "11111110";
+		X <= "11111111";
+		Y <= "11111111";
 		wait until falling_edge(clk);
 		
 		init <= '0';
 		wait on Res;
-		--Só para que a onda fique mais visível
-		wait for 69 ns;
-		--wait for 1000 ns;
+		wait for 100 ns;
 		
 		assert false
 			   report "Stuff's done."
@@ -45,4 +43,3 @@ begin
 	end process;
 
 end Behavioral;
-

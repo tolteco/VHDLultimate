@@ -11,3 +11,9 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+
+** Failure:Stuff's done.
+User(VHDL) Code Called Simulation Stop
+In process tb_mult.vhd:29 
+ 
+INFO: Simulator is stopped.
