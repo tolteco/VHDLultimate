@@ -30,7 +30,7 @@ begin
 	begin
 		init <= '1';
 		
-		X <= "00000101";
+		X <= "00000000";
 		Y <= "11111110";
 		wait until falling_edge(clk);
 		

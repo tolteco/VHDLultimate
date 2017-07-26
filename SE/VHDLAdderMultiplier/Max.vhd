@@ -29,13 +29,17 @@ architecture Behavioral of Max is
 	end component;
 	
 	signal X_Minus_Y : std_logic_vector(15 downto 0);
+	signal sselect : std_logic;
 	signal C_Out : std_logic;
 begin
 	u_ca0 : Subtrator16
 		port map (X, Y, C_Out, X_Minus_Y);
+	
+		sselect <= X_Minus_Y(15) when (X(15) = '0' and Y(15) = '0') else
+					  not(X_Minus_Y(15));
 		
 	u_ca1 : Multiplexer16
-		port map (X, Y, X_Minus_Y(15), S); 
+		port map (X, Y, sselect, S); 
 	
 end Behavioral;
 

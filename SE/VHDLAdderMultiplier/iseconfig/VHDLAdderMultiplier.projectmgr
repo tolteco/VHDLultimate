@@ -20,13 +20,13 @@
          <ClosedNode>/MultiplicadorSomador8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|MultiplicadorSomador8.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>MultiplicadorSomador8 - Behavioral (C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/MultiplicadorSomador8.vhd)</SelectedItem>
+         <SelectedItem>ExpandNegative - Behavioral (C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/ExpandNegative.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a2000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a20000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001e6000000020000000000000000000000000200000064ffffffff000000810000000300000002000001e60000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>MultiplicadorSomador8 - Behavioral (C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/MultiplicadorSomador8.vhd)</CurrentItem>
+      <CurrentItem>ExpandNegative - Behavioral (C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/ExpandNegative.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -155,6 +155,7 @@
          <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_dec - CSA16 - Behavioral</ClosedNode>
          <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_mux0 - Multiplexer16 - Behavioral</ClosedNode>
          <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_mux1 - Multiplexer16 - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_negTem - Neg - Behavioral</ClosedNode>
          <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_reg0 - Reg16 - Behavioral</ClosedNode>
          <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_reg1 - Reg16 - Behavioral</ClosedNode>
          <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_regi1 - Reg16 - Behavioral</ClosedNode>
@@ -175,13 +176,13 @@
          <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ef000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ef0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>

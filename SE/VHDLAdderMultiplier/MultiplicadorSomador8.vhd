@@ -140,12 +140,16 @@ begin
 			--    if Ant_Pler = zeros
 			--
 		--
-	
-		if falling_edge(Clock) and AntPler = zeros then
-			if ExtY(15) = '1' then
-				Sout <= NotAntCand;
-			else
-				Sout <= AntCand;
+
+		if falling_edge(Clock) then
+			if Multiplier = zeros then
+				Sout <= zeros;
+			elsif AntPler = zeros then
+				if ExtY(15) = '1' then
+					Sout <= NotAntCand;
+				else
+					Sout <= AntCand;
+				end if;
 			end if;
 		end if;
 		
