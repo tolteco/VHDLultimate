@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\JFPS\Documents\GitHub\VHDLultimate\SE\VHDLAdderMultiplier\tb_mult_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/tb_mult_isim_beh.wdb 
+Running: C:\Users\JFPS\Documents\GitHub\VHDLultimate\SE\VHDLAdderMultiplier\CLA_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CLA_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -11,9 +11,11 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-
-** Failure:Stuff's done.
-User(VHDL) Code Called Simulation Stop
-In process tb_mult.vhd:29 
- 
-INFO: Simulator is stopped.
+# run all
+# restart
+# isim force add /cla/x 0011 -radix bin
+# isim force add /cla/y 1111 -radix bin
+# isim force add /cla/t 0 -radix bin
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

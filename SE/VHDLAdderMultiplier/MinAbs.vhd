@@ -26,8 +26,7 @@ architecture Behavioral of MinAbs is
 			S : out std_logic_vector(15 downto 0)
 		);
 	end component;
-	
-	signal F1, F2, F3 : std_logic;
+
 	signal TempS, NX, NY, NegX, NegY : std_logic_vector(15 downto 0);
 begin
 	u_ca_t0 : Neg
@@ -44,14 +43,8 @@ begin
 	u_ca0 : Min
 		port map (NX, NY, TempS);
 
-	F1 <= '1' when (NX=TempS) else
-			'0';
-	F3 <= '1' when (X=NegY) else
-			'0';
-	F2 <= '1' when (X(15)='1' or X=TempS) else
-			'0';
-
 	S <= TempS;
-	NegF <= (F1 or not(F3)) and F2;
+	NegF <= '1' when ((X(15)='1' and NX=TempS) or (Y(15)='1' and NY=TempS)) else
+			'0';
 end Behavioral;
 

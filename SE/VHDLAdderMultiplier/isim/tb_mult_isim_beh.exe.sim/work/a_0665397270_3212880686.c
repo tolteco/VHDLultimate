@@ -149,7 +149,7 @@ LAB7:    goto LAB5;
 LAB8:    t3 = (t0 + 3432);
     *((int *)t3) = 0;
     xsi_set_current_line(39, ng0);
-    t10 = (69 * 1000LL);
+    t10 = (49 * 1000LL);
     t2 = (t0 + 2888);
     xsi_process_wait(t2, t10);
 

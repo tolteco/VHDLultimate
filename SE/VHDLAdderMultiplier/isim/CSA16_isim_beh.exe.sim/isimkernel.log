@@ -1,0 +1,32 @@
+Command line:
+   CSA16_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53916
+
+Thu Jul 27 00:13:02 2017
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 667.488 Meg
+
+ Total Signals          : 809
+ Total Nets             : 353
+ Total Signal Drivers   : 294
+ Total Blocks           : 150
+ Total Primitive Blocks : 97
+ Total Processes        : 222
+ Total Traceable Variables  : 49
+ Total Scalar Nets and Variables : 754
+Total Line Count : 294
+Total Line Count : 294
+Total Line Count : 294
+Total Line Count : 294
+
+ Total Simulation Time: 0.1404 sec
+
+ Current Memory Usage: 667.488 Meg
+
+Thu Jul 27 00:15:14 2017
+

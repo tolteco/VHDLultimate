@@ -1,0 +1,30 @@
+Command line:
+   CSA8_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54898
+
+Thu Jul 27 00:15:34 2017
+
+
+ Elaboration Time: 0.078 sec
+
+ Current Memory Usage: 663.294 Meg
+
+ Total Signals          : 253
+ Total Nets             : 120
+ Total Signal Drivers   : 95
+ Total Blocks           : 47
+ Total Primitive Blocks : 30
+ Total Processes        : 71
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 490
+Total Line Count : 95
+Total Line Count : 95
+
+ Total Simulation Time: 0.109201 sec
+
+ Current Memory Usage: 977.867 Meg
+
+Thu Jul 27 00:16:41 2017
+

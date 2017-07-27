@@ -29,16 +29,16 @@ begin
 	process
 	begin
 		init <= '1';
-		X <= "00000010";
-		Y <= "11111110";
+		X <= "11111101";
+		Y <= "11111111";
 		wait until falling_edge(clk);
 		
 		init <= '0';
 		wait on Res;
 		--Só para que a onda fique mais visível
-		wait for 69 ns;
+		wait for 49 ns;
 		--wait for 1000 ns;
-		
+
 		assert false
 			   report "Stuff's done."
 			   severity failure;

@@ -2,27 +2,34 @@ Command line:
    tb_mult_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  63884
+     -socket  52836
 
-Wed Jul 26 19:16:37 2017
+Thu Jul 27 00:09:22 2017
 
 
  Elaboration Time: 0.124801 sec
 
  Current Memory Usage: 692.462 Meg
 
- Total Signals          : 9546
- Total Nets             : 4237
- Total Signal Drivers   : 3421
+ Total Signals          : 9540
+ Total Nets             : 4231
+ Total Signal Drivers   : 3415
  Total Blocks           : 1777
  Total Primitive Blocks : 1171
- Total Processes        : 2627
+ Total Processes        : 2621
  Total Traceable Variables  : 602
- Total Scalar Nets and Variables : 5326
-Total Line Count : 3463
+ Total Scalar Nets and Variables : 5320
+Total Line Count : 3457
 
 ** Failure:Stuff's done.
 User(VHDL) Code Called Simulation Stop
 In process tb_mult.vhd:29 
  
+
+
+ Total Simulation Time: 0.187201 sec
+
+ Current Memory Usage: 1007.03 Meg
+
+Thu Jul 27 00:09:56 2017
 

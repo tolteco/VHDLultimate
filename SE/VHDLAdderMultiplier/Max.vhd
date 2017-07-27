@@ -68,29 +68,22 @@ architecture Behavioral of Max is
 	end component;
 	
 	signal NegF, F1, F2, F3, sselect : std_logic;
-	signal TempS, NX, NY, NegX, NegY : std_logic_vector(15 downto 0);
+	signal TempS, NX, NY, NegX, NegY : 
+	std_logic_vector(15 downto 0);
 begin
-	u_ca_t0 : Neg
-		port map (X, NegX);
-	u_ca_t1 : Neg
-		port map (Y, NegY);
+	u_ca_t0 : Neg port map (X, NegX);
+	u_ca_t1 : Neg port map (Y, NegY);
 
-	NX <= X when X(15) = '0' else
-			NegX;
-	NY <= Y when Y(15) = '0' else
-			NegX;
+	NX <= X when X(15) = '0' else	NegX;
+	NY <= Y when Y(15) = '0' else	NegX;
 
-	u_ca0 : MinAbs
-		port map (X, Y, NegF, TempS);
-
-	--F1 <= '1' when (NX=TempS) else
-	--		'0';
-	--F2 <= '1' when (X=NegY) else
-	--		'0';
-	--F3 <= '1' when (X(15)='1' or X=TempS) else
-	--		'0';
+	u_ca0 : MinAbs	port map (X, Y, NegF, TempS);
 	
-	sselect <= F1 and (not(F2) or F3);
+	F1 <= '1' when (NX=TempS) else '0';
+	F2 <= '1' when (X=NegY)   else '0';
+	F3 <= '1' when (X=TempS)  else '0';
+	
+	sselect <= F1 and not(F2 and F3);
 	
 	u_ca1 : Multiplexer16
 		port map (X, Y, sselect, S); 
