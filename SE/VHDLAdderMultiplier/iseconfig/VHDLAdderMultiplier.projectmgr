@@ -97,6 +97,7 @@
          <ClosedNode>/CSA8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CSA8.vhd/u_ca1 - CLA - Behavioral</ClosedNode>
          <ClosedNode>/CSA8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CSA8.vhd/u_ca2 - CLA - Behavioral</ClosedNode>
          <ClosedNode>/CSA8 - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|CSA8.vhd/u_ca3 - Multiplexer4 - Behavioral</ClosedNode>
+         <ClosedNode>/ExpandNegative - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|ExpandNegative.vhd</ClosedNode>
          <ClosedNode>/ExpandNegative - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|ExpandNegative.vhd/u_ca0 - Neg - Behavioral</ClosedNode>
          <ClosedNode>/ExpandNegative - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|ExpandNegative.vhd/u_ca_t0 - Neg8 - Behavioral/u_ca0 - CSA8 - Behavioral/u_ca0 - CLA - Behavioral</ClosedNode>
          <ClosedNode>/ExpandNegative - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|ExpandNegative.vhd/u_ca_t0 - Neg8 - Behavioral/u_ca0 - CSA8 - Behavioral/u_ca1 - CLA - Behavioral</ClosedNode>
@@ -178,6 +179,7 @@
          <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_reg1 - Reg16 - Behavioral</ClosedNode>
          <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_regi1 - Reg16 - Behavioral</ClosedNode>
          <ClosedNode>/tb_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_mult.vhd/u_top - MultiplicadorSomador8 - Behavioral/u_regi2 - Reg16 - Behavioral</ClosedNode>
+         <ClosedNode>/tb_u_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_u_mult.vhd</ClosedNode>
          <ClosedNode>/tb_u_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_u_mult.vhd/u_top - U_MultiplicadorSomador8 - Behavioral/u_ca1 - CSA16 - Behavioral</ClosedNode>
          <ClosedNode>/tb_u_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_u_mult.vhd/u_top - U_MultiplicadorSomador8 - Behavioral/u_const1 - MinAbs - Behavioral</ClosedNode>
          <ClosedNode>/tb_u_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_u_mult.vhd/u_top - U_MultiplicadorSomador8 - Behavioral/u_const2 - U_Max - Behavioral</ClosedNode>
@@ -189,13 +191,13 @@
          <ClosedNode>/tb_u_mult - Behavioral C:|Users|JFPS|Documents|GitHub|VHDLultimate|SE|VHDLAdderMultiplier|tb_u_mult.vhd/u_top - U_MultiplicadorSomador8 - Behavioral/u_reg1 - Reg16 - Behavioral</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>u_ca0 - CLA - Behavioral (C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CLA.vhd)</SelectedItem>
+         <SelectedItem>tb_mult - Behavioral (C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/tb_mult.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001f9000000020000000000000000000000000200000064ffffffff000000810000000300000002000001f90000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000152000000020000000000000000000000000200000064ffffffff000000810000000300000002000001520000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>u_ca0 - CLA - Behavioral (C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CLA.vhd)</CurrentItem>
+      <CurrentItem>tb_mult - Behavioral (C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/tb_mult.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -203,26 +205,26 @@
          <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ef000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ef0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ef000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ef0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <ItemView engineview="PostTransSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>

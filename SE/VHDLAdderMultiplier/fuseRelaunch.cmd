@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CLA_isim_beh.exe" -prj "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/CLA_beh.prj" "work.CLA" 
+-intstyle "ise" -incremental -o "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/tb_mult_isim_beh.exe" -prj "C:/Users/JFPS/Documents/GitHub/VHDLultimate/SE/VHDLAdderMultiplier/tb_mult_beh.prj" "work.tb_mult" 

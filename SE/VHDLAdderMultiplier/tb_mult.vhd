@@ -29,8 +29,8 @@ begin
 	process
 	begin
 		init <= '1';
-		X <= "11111101";
-		Y <= "11111111";
+		X <= "10000010";
+		Y <= "10000110";
 		wait until falling_edge(clk);
 		
 		init <= '0';

@@ -2,12 +2,12 @@ Command line:
    tb_mult_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  52836
+     -socket  50986
 
-Thu Jul 27 00:09:22 2017
+Thu Jul 27 12:01:41 2017
 
 
- Elaboration Time: 0.124801 sec
+ Elaboration Time: 0.109201 sec
 
  Current Memory Usage: 692.462 Meg
 
@@ -20,6 +20,7 @@ Thu Jul 27 00:09:22 2017
  Total Traceable Variables  : 602
  Total Scalar Nets and Variables : 5320
 Total Line Count : 3457
+Total Line Count : 3457
 
 ** Failure:Stuff's done.
 User(VHDL) Code Called Simulation Stop
@@ -27,9 +28,9 @@ In process tb_mult.vhd:29
  
 
 
- Total Simulation Time: 0.187201 sec
+ Total Simulation Time: 0.265201 sec
 
- Current Memory Usage: 1007.03 Meg
+ Current Memory Usage: 692.462 Meg
 
-Thu Jul 27 00:09:56 2017
+Thu Jul 27 12:11:43 2017
 

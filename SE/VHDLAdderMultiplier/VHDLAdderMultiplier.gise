@@ -26,9 +26,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CLA.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CLA.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="CLA.xst"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CLA_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CLA_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="CLA_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CSA16_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CSA16_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CSA8_isim_beh.exe"/>
@@ -101,7 +99,9 @@
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_mult_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_mult_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_mult_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_mult_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_u_mult_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
@@ -119,13 +119,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1501125043" xil_pn:in_ck="-8769556762018251670" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1501125043">
+    <transform xil_pn:end_ts="1501167696" xil_pn:in_ck="-8769556762018251670" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1501167696">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="CLA.vhd"/>
       <outfile xil_pn:name="CSA16.vhd"/>
       <outfile xil_pn:name="CSA8.vhd"/>
@@ -155,11 +151,11 @@
       <outfile xil_pn:name="tb_mult.vhd"/>
       <outfile xil_pn:name="tb_u_mult.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1501125413" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4610245146771766515" xil_pn:start_ts="1501125413">
+    <transform xil_pn:end_ts="1501165231" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1943739952328697658" xil_pn:start_ts="1501165231">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1501125413" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6208673415478859544" xil_pn:start_ts="1501125413">
+    <transform xil_pn:end_ts="1501165231" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7357339382610347503" xil_pn:start_ts="1501165231">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -167,14 +163,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1501125043" xil_pn:in_ck="-8769556762018251670" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1501125043">
+    <transform xil_pn:end_ts="1501167696" xil_pn:in_ck="-8769556762018251670" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1501167696">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="CLA.vhd"/>
       <outfile xil_pn:name="CSA16.vhd"/>
       <outfile xil_pn:name="CSA8.vhd"/>
@@ -204,30 +195,26 @@
       <outfile xil_pn:name="tb_mult.vhd"/>
       <outfile xil_pn:name="tb_u_mult.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1501125418" xil_pn:in_ck="-8769556762018251670" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="9041274838255917342" xil_pn:start_ts="1501125413">
+    <transform xil_pn:end_ts="1501167700" xil_pn:in_ck="-8769556762018251670" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6137511816247396724" xil_pn:start_ts="1501167696">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="CLA_beh.prj"/>
-      <outfile xil_pn:name="CLA_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_mult_beh.prj"/>
+      <outfile xil_pn:name="tb_mult_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1501125419" xil_pn:in_ck="502436320487649154" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6925057660964892171" xil_pn:start_ts="1501125418">
+    <transform xil_pn:end_ts="1501167700" xil_pn:in_ck="502436320487649154" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7151038512849381223" xil_pn:start_ts="1501167700">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="CLA_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_mult_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1500746414" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1500746414">
       <status xil_pn:value="SuccessfullyRun"/>
